@@ -2,15 +2,15 @@
     "Themes": {
         "MarcoStyle":{
             "img": "MarcoStyle.jpg",
-            "downloads": "[GeomaLight.otf, MarcoStyle.json, PhenomenaBlack.otf]"
+            "downloads": "[GeomaLight.otf, MarcoStyle.json, PhenomenaBlack.otf, MarcoStyle.jpg]"
         },
         "Synthwave":{
             "img": "Synthwave.jpg",
-            "downloads": "[Signerica_Fat.ttf, Synthwave.json, Groovy_Fast.ttf]"
+            "downloads": "[Signerica_Fat.ttf, Synthwave.json, Groovy_Fast.ttf, Synthwave.jpg]"
         },
         "List":{
             "img": "List.jpg",
-            "downloads": "[List.json]"
+            "downloads": "[List.json, List.jpg]"
         }
     }
 }
