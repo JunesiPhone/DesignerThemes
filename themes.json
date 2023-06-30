@@ -7,6 +7,10 @@
         "Synthwave":{
             "img": "Synthwave.jpg",
             "downloads": "[Signerica_Fat.ttf, Synthwave.json, Groovy_Fast.ttf]"
+        },
+        "List":{
+            "img": "List.jpg",
+            "downloads": "[List.json]"
         }
     }
 }

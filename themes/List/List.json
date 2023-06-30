@@ -1,0 +1,123 @@
+{
+    "PresetView": {
+        "type": "UIView",
+        "frame": {
+            "x" : "0",
+            "y" : "30",
+            "width": "screen_width",
+            "height": "screen_height",
+            "userInteractionEnabled": "NO"
+        },
+        "children": {
+            "dot1":{
+                "type": "UIView",
+                "frame":{
+                    "x": "40",
+                    "y": "FB~240",
+                    "width": "8",
+                    "height": "8",
+                    "userInteractionEnabled":"NO"
+                },
+                "cornerRadius": "5",
+                "backgroundColor": "rgba(255,255,255,0.3)"
+            },
+            "dot2":{
+                "type": "UIView",
+                "frame":{
+                    "x": "40",
+                    "y": "FB~200",
+                    "width": "8",
+                    "height": "8",
+                    "userInteractionEnabled":"NO"
+                },
+                "cornerRadius": "5",
+                "backgroundColor": "rgba(255,255,255,0.3)"
+            },
+            "dot3":{
+                "type": "UIView",
+                "frame":{
+                    "x": "40",
+                    "y": "FB~160",
+                    "width": "8",
+                    "height": "8",
+                    "userInteractionEnabled":"NO"
+                },
+                "cornerRadius": "5",
+                "backgroundColor": "rgba(255,255,255,0.3)"
+            },
+            "dot4":{
+                "type": "UIView",
+                "frame":{
+                    "x": "40",
+                    "y": "FB~120",
+                    "width": "8",
+                    "height": "8",
+                    "userInteractionEnabled":"NO"
+                },
+                "cornerRadius": "5",
+                "backgroundColor": "rgba(255,255,255,0.3)"
+            },
+            "time_label": {
+                "type": "UILabel",
+                "data": "[paddedhour].[minute]",
+                "frame": {
+                    "x" : "60",
+                    "y": "FB~244",
+                    "width": "300",
+                    "height": "15"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "PingFangTC-Medium",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textColor": "rgba(255,255,255,1.0)"
+            },
+            "date_label": {
+                "type": "UILabel",
+                "data": "[day].[date]",
+                "frame": {
+                    "x" : "60",
+                    "y": "FB~204",
+                    "width": "300",
+                    "height": "15"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "PingFangTC-Medium",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textColor": "rgba(255,255,255,1.0)"
+            },
+            "condition": {
+                "type": "UILabel",
+                "data": "[temperature]° [condition]",
+                "frame": {
+                    "x" : "60",
+                    "y": "FB~164",
+                    "width": "300",
+                    "height": "15"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "PingFangTC-Medium",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textColor": "rgba(255,255,255,1.0)",
+                "textStyle": "capitalize"
+            },
+            "battery": {
+                "type": "UILabel",
+                "data": "[batterypercent]%",
+                "frame": {
+                    "x" : "60",
+                    "y" : "FB~124",
+                    "width": "300",
+                    "height": "15"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "PingFangTC-Medium",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textColor": "rgba(255,255,255,1.0)"
+            }
+        }
+    }
+}
