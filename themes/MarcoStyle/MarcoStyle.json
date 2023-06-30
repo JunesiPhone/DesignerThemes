@@ -1,0 +1,109 @@
+{
+    "PresetView": {
+        "dataInfo": "(INFO ONLY THIS LINE CAN BE DELETED) Fonts: https://iosfontlist.com/#availability=10.0&preinstalled",
+        "type": "UIView",
+        "frame": {
+            "x" : "0",
+            "y" : "0",
+            "width": "screen_width",
+            "height": "screen_height",
+            "userInteractionEnabled": "NO"
+        },
+        "children": {
+            "morning_text": {
+                "type": "UILabel",
+                "data": "Good [timeofday]",
+                "frame": {
+                    "x" : "center",
+                    "y" : "FB~265",
+                    "width": "300",
+                    "height": "20"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "CF",
+                "customFontName": "GeomaLight.otf",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textStyle": "uppercase",
+                "textColor": "rgba(255,255,255,1.0)"
+            },
+            "day": {
+                "type": "UILabel",
+                "data": "[day]",
+                "frame": {
+                    "x" : "center",
+                    "y" : "FB~235",
+                    "width": "300",
+                    "height": "65"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "CF",
+                "customFontName": "PhenomenaBlack.otf",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textStyle": "uppercase",
+                "textColor": "rgba(255,255,255,1.0)"
+            },
+            "date": {
+                "type": "UILabel",
+                "data": "[date] [month]",
+                "frame": {
+                    "x" : "center",
+                    "y" : "FB~185",
+                    "width": "300",
+                    "height": "65"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "CF",
+                "customFontName": "PhenomenaBlack.otf",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textStyle": "uppercase",
+                "textColor": "rgba(255,255,255,1.0)"
+            },
+            "line_left":{
+                "type": "UIView",
+                "frame": {
+                    "x" : "39",
+                    "y" : "FB~105",
+                    "width": "3",
+                    "height": "35"
+                },
+                "cornerRadius": 1,
+                "backgroundColor": "rgba(255,255,255,1.0)"
+            },
+            "time_label": {
+                "type": "UILabel",
+                "data": "time is [paddedtime]",
+                "frame": {
+                    "x" : "55",
+                    "y" : "FB~108",
+                    "width": "300",
+                    "height": "20"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "CF",
+                "customFontName" : "GeomaLight.otf",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textColor": "rgba(255,255,255,1.0)"
+            },
+            "battery": {
+                "type": "UILabel",
+                "data": "battery is [batterypercent]%",
+                "frame": {
+                    "x" : "55",
+                    "y" : "FB~88",
+                    "width": "300",
+                    "height": "20"
+                },
+                "numberOfLines" : "1",
+                "fontName" : "CF",
+                "customFontName" : "GeomaLight.otf",
+                "fontSize" : "FH",
+                "textAlignment": "NSTextAlignmentLeft",
+                "textColor": "rgba(255,255,255,1.0)"
+            }
+        }
+    }
+}

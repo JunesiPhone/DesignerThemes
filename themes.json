@@ -2,7 +2,7 @@
     "Themes": {
         "MarcoStyle":{
             "img": "MarcoStyle.jpg",
-            "download": "MarcoStyle.zip"
+            "downloads": "[GeomaLight.otf, MarcoStyle.json, PhenomenaBlack.otf]"
         }
     }
 }
