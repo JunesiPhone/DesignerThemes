@@ -1,16 +1,16 @@
 {
     "Themes": {
         "MarcoStyle":{
-            "img": "MarcoStyle.jpg",
             "downloads": "[GeomaLight.otf, MarcoStyle.json, PhenomenaBlack.otf, MarcoStyle.jpg]"
         },
         "Synthwave":{
-            "img": "Synthwave.jpg",
             "downloads": "[Signerica_Fat.ttf, Synthwave.json, Groovy_Fast.ttf, Synthwave.jpg]"
         },
         "List":{
-            "img": "List.jpg",
             "downloads": "[List.json, List.jpg]"
+        },
+        "Circles":{
+            "downloads": "[Circles.json, Circles.jpg]"
         }
     }
 }
