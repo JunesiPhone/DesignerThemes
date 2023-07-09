@@ -16,7 +16,7 @@
           "width" : "screen_width",
           "height" : "screen_height"
         },
-        "backgroundColor" : "rgba(0, 0, 0, 0.7)",
+        "backgroundColor" : "rgba(0, 0, 0, 0)",
         "type" : "UIView",
         "cornerRadius" : "5",
         "children" : {

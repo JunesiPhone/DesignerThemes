@@ -15,7 +15,7 @@
                 "data": "Good [timeofday]",
                 "frame": {
                     "x" : "center",
-                    "y" : "FB~265",
+                    "y" : "FB~245",
                     "width": "300",
                     "height": "20"
                 },
@@ -32,7 +32,7 @@
                 "data": "[day]",
                 "frame": {
                     "x" : "center",
-                    "y" : "FB~235",
+                    "y" : "FB~170",
                     "width": "300",
                     "height": "65"
                 },
@@ -49,7 +49,7 @@
                 "data": "[date] [month]",
                 "frame": {
                     "x" : "center",
-                    "y" : "FB~185",
+                    "y" : "FB~120",
                     "width": "300",
                     "height": "65"
                 },
@@ -65,7 +65,7 @@
                 "type": "UIView",
                 "frame": {
                     "x" : "39",
-                    "y" : "FB~105",
+                    "y" : "FB~70",
                     "width": "3",
                     "height": "35"
                 },
@@ -77,7 +77,7 @@
                 "data": "time is [paddedtime]",
                 "frame": {
                     "x" : "55",
-                    "y" : "FB~108",
+                    "y" : "FB~88",
                     "width": "300",
                     "height": "20"
                 },
@@ -93,7 +93,7 @@
                 "data": "battery is [batterypercent]%",
                 "frame": {
                     "x" : "55",
-                    "y" : "FB~88",
+                    "y" : "FB~68",
                     "width": "300",
                     "height": "20"
                 },
