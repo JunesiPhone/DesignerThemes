@@ -1,0 +1,227 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Fonts: https:\/\/iosfontlist.com\/#availability=10.0&preinstalled",
+    "type" : "UIView",
+    "children" : {
+      "container" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "380",
+          "x" : "center",
+          "width" : "300",
+          "height" : "241"
+        },
+        "children" : {
+          "timebox" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "1",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "140",
+              "height" : "150"
+            },
+            "children" : {
+              "tod" : {
+                "textStyle" : "lowercase",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "44",
+                  "x" : "0",
+                  "width" : "140",
+                  "height" : "100"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[timeofday]",
+                "fontSize" : "15",
+                "fontName" : "AppleSDGothicNeo-Thin",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0.7)"
+                }
+              },
+              "time" : {
+                "textStyle" : "capitalize",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "20",
+                  "x" : "0",
+                  "width" : "140",
+                  "height" : "100"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+                "textColor" : "rgba(255, 255, 255, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[paddedhour]:[minute]",
+                "fontSize" : "30",
+                "fontName" : "ArialRoundedMTBold",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0.7)"
+                }
+              }
+            },
+            "cornerRadius" : "15",
+            "type" : "UIView",
+            "backgroundColor" : "rgba(255,255,255,0.3)",
+            "scale" : "0"
+          },
+          "weatherbox" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "1",
+            "frame" : {
+              "y" : "0",
+              "x" : "160",
+              "width" : "140",
+              "height" : "150"
+            },
+            "children" : {
+              "temp" : {
+                "textStyle" : "capitalize",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "20",
+                  "x" : "0",
+                  "width" : "140",
+                  "height" : "100"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[temperature][degreeSymbol][temptype]",
+                "fontSize" : "30",
+                "fontName" : "ArialRoundedMTBold",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0.7)"
+                }
+              },
+              "condition" : {
+                "textStyle" : "lowercase",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "44",
+                  "x" : "0",
+                  "width" : "140",
+                  "height" : "100"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[condition]",
+                "fontSize" : "15",
+                "fontName" : "AppleSDGothicNeo-Thin",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0.7)"
+                }
+              }
+            },
+            "cornerRadius" : "15",
+            "type" : "UIView",
+            "backgroundColor" : "rgba(255,255,255,0.3)",
+            "scale" : "0"
+          },
+          "datebox" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "1",
+            "frame" : {
+              "y" : "167",
+              "x" : "0",
+              "width" : "300",
+              "height" : "65"
+            },
+            "children" : {
+              "date" : {
+                "textStyle" : "capitalize",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "300",
+                  "height" : "100"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[month] [date], [year]",
+                "fontSize" : "15",
+                "fontName" : "AppleSDGothicNeo-Thin",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0.7)"
+                }
+              },
+              "day" : {
+                "textStyle" : "uppercase",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "300",
+                  "height" : "45"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[day]",
+                "fontSize" : "30",
+                "fontName" : "ArialRoundedMTBold",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0.7)"
+                }
+              }
+            },
+            "cornerRadius" : "15",
+            "type" : "UIView",
+            "backgroundColor" : "rgba(255,255,255,0.3)",
+            "scale" : "0"
+          }
+        },
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "scale" : "0"
+      }
+    }
+  }
+}

@@ -15,6 +15,10 @@
         "Circles":{
             "img": "Circles.jpg",
             "downloads": "[Circles.json, Circles.jpg]"
+        },
+        "Boxes":{
+            "img": "Boxes.jpg",
+            "downloads": "[Boxes.json, Boxes.jpg]"
         }
     }
 }
