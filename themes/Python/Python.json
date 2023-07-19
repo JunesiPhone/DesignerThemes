@@ -1,0 +1,320 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Fonts: https:\/\/iosfontlist.com\/#availability=10.0&preinstalled",
+    "type" : "UIView",
+    "children" : {
+      "holder" : {
+        "rotate" : "0",
+        "blurAlpha" : "0",
+        "scale" : "0",
+        "frame" : {
+          "y" : "FB~50",
+          "x" : "center",
+          "width" : "360",
+          "height" : "231"
+        },
+        "children" : {
+          "04" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "100",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "04 t = now.strftime(      )",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "05" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "125",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "05 print(       ,t)",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "import" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "25",
+              "x" : "159",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(171, 141, 247, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "import",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "from" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "25",
+              "x" : "27",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(171, 141, 247, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "from",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "01" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "25",
+              "x" : "0",
+              "width" : "360",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "01      datetime        datetime",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "06" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "150",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "06",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "timestr" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "125",
+              "x" : "82",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(186, 220, 148, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "“Time =”",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "comment" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "00 \/* Get Time *\/",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 0.0)"
+            }
+          },
+          "02" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "50",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "02 ",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "format" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "100",
+              "x" : "184",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(186, 220, 148, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "“%H:%M”",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "07" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "175",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "07 Time = [paddedtime]",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "03" : {
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "75",
+              "x" : "0",
+              "width" : "300",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "03 now = datetime.now()",
+            "fontSize" : "15",
+            "fontName" : "Cherry Monospace-Light.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          }
+        },
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "backgroundColor" : "rgba(252, 249, 181, 0.0)"
+      }
+    }
+  }
+}

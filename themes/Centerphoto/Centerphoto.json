@@ -1,0 +1,89 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "battery" : {
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentRight",
+        "frame" : {
+          "y" : "535",
+          "x" : "center",
+          "width" : "165",
+          "height" : "58"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(242, 176, 103, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[batterypercent]%",
+        "fontSize" : "15",
+        "fontName" : "AvenirNext-UltraLightItalic",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        }
+      },
+      "imgborder" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(255,255,255,0.3)",
+        "scale" : "0.7",
+        "frame" : {
+          "y" : "90",
+          "x" : "center",
+          "width" : "280",
+          "height" : "540"
+        },
+        "children" : {
+          "mini" : {
+            "frame" : {
+              "y" : "-5",
+              "x" : "-45",
+              "width" : "370",
+              "height" : "550"
+            },
+            "contentMode" : "scaleAspectFit",
+            "imageURL" : "gen2.jpg",
+            "type" : "UIImageView"
+          }
+        },
+        "cornerRadius" : "20",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "time_label" : {
+        "fontSize" : "15",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "frame" : {
+          "y" : "535",
+          "x" : "center",
+          "width" : "160",
+          "height" : "58"
+        },
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "fontName" : "AvenirNext-UltraLightItalic",
+        "kerning" : "0",
+        "type" : "UILabel",
+        "textColor" : "rgba(243, 176, 105, 1.0)",
+        "backgroundColor" : "rgba(255,255,255,0)"
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Fonts: https:\/\/iosfontlist.com\/#availability=10.0&preinstalled",
+    "type" : "UIView",
+    "children" : {
+      "timedatecontainer" : {
+        "rotate" : "0",
+        "blurAlpha" : "0",
+        "scale" : "0",
+        "frame" : {
+          "y" : "325",
+          "x" : "center",
+          "width" : "133",
+          "height" : "25"
+        },
+        "children" : {
+          "date" : {
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "0",
+              "x" : "73",
+              "width" : "60",
+              "height" : "30"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[shortmonth] [paddeddate]",
+            "fontSize" : "13",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 0.0)"
+            }
+          },
+          "time" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "60",
+              "height" : "30"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "fontSize" : "13",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "dash" : {
+            "rotate" : "0",
+            "blurAlpha" : "0",
+            "scale" : "0",
+            "frame" : {
+              "y" : "14",
+              "x" : "55",
+              "width" : "20",
+              "height" : "1"
+            },
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "blurColor" : "dark",
+            "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+          }
+        },
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "backgroundColor" : "rgba(228, 204, 248, 0.0)"
+      },
+      "day" : {
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "222",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "133"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortday]",
+        "fontSize" : "120",
+        "fontName" : "dealerplate_california.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 0.0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      }
+    }
+  }
+}

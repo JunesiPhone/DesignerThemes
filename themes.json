@@ -19,6 +19,18 @@
         "Boxes":{
             "img": "Boxes.jpg",
             "downloads": "[Boxes.json, Boxes.jpg]"
+        },
+        "Bigday":{
+            "img": "Bigday.jpg",
+            "downloads": "[Bigday.json, Bigday.jpg, dealerplate_california.otf]"
+        },
+        "Centerphoto":{
+            "img": "Centerphoto.jpg",
+            "downloads": "[Centerphoto.json, Centerphoto.jpg]"
+        },
+        "Python":{
+            "img": "Python.jpg",
+            "downloads": "[Python.json, Python.jpg, Cherry Monospace-Light.ttf]"
         }
     }
 }
