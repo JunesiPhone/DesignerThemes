@@ -31,6 +31,10 @@
         "Python":{
             "img": "Python.jpg",
             "downloads": "[Python.json, Python.jpg, Cherry Monospace-Light.ttf]"
+        },
+        "Gameboy":{
+            "img": "Gameboy.jpg",
+            "downloads": "[Gameboy.json, Gameboy.jpg, dealerplate_california.otf]"
         }
     }
 }
