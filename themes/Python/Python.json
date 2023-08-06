@@ -37,7 +37,7 @@
             "numberOfLines" : "1",
             "data" : "04 t = now.strftime(      )",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -61,7 +61,7 @@
             "numberOfLines" : "1",
             "data" : "05 print(       ,t)",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -85,7 +85,7 @@
             "numberOfLines" : "1",
             "data" : "import",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -109,7 +109,7 @@
             "numberOfLines" : "1",
             "data" : "from",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -133,7 +133,7 @@
             "numberOfLines" : "1",
             "data" : "01      datetime        datetime",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -157,7 +157,7 @@
             "numberOfLines" : "1",
             "data" : "06",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -181,7 +181,7 @@
             "numberOfLines" : "1",
             "data" : "“Time =”",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -205,7 +205,7 @@
             "numberOfLines" : "1",
             "data" : "00 \/* Get Time *\/",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "radius" : "3",
@@ -229,7 +229,7 @@
             "numberOfLines" : "1",
             "data" : "02 ",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -253,7 +253,7 @@
             "numberOfLines" : "1",
             "data" : "“%H:%M”",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -277,7 +277,7 @@
             "numberOfLines" : "1",
             "data" : "07 Time = [paddedtime]",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
@@ -301,7 +301,7 @@
             "numberOfLines" : "1",
             "data" : "03 now = datetime.now()",
             "fontSize" : "15",
-            "fontName" : "Cherry Monospace-Light.ttf",
+            "fontName" : "Cherry_Monospace-Light.ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0, 0, 0, 0.0)",
