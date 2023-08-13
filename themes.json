@@ -35,6 +35,14 @@
         "Gameboy":{
             "img": "Gameboy.jpg",
             "downloads": "[Gameboy.json, Gameboy.jpg, dealerplate_california.otf]"
+        },
+        "List":{
+            "img": "List.jpg",
+            "downloads": "[List.json, List.jpg]"
+        },
+        "Swirl":{
+            "img": "Swirl.jpg",
+            "downloads": "[Swirl.json, Swirl.jpg, Groovy_Fast.ttf]"
         }
     }
 }
