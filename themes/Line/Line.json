@@ -1,0 +1,120 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "line" : {
+        "rotate" : "-90",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "300",
+          "x" : "center",
+          "width" : "145",
+          "height" : "50"
+        },
+        "children" : {
+          "day" : {
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "5",
+              "x" : "30",
+              "width" : "145",
+              "height" : "41"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "fontSize" : "20",
+            "fontName" : "Avenir-Black",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 0.0)"
+            }
+          }
+        },
+        "cornerRadius" : "10",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)",
+        "scale" : "0"
+      },
+      "timeholder" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "385",
+          "x" : "center",
+          "width" : "50",
+          "height" : "105"
+        },
+        "children" : {
+          "minute" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "55",
+              "x" : "0",
+              "width" : "50",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[minute]",
+            "fontSize" : "24",
+            "fontName" : "Avenir-Black",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 0.0)"
+            }
+          },
+          "hour" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "25",
+              "x" : "0",
+              "width" : "50",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]",
+            "fontSize" : "24",
+            "fontName" : "Avenir-Black",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          }
+        },
+        "cornerRadius" : "10",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(255, 255, 255, 0.7)",
+        "scale" : "0"
+      }
+    }
+  }
+}

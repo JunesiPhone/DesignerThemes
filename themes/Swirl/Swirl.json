@@ -1,0 +1,48 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Fonts: https:\/\/iosfontlist.com\/#availability=10.0&preinstalled",
+    "type" : "UIView",
+    "children" : {
+      "time_label" : {
+        "fontSize" : "80",
+        "textAlignment" : "NSTextAlignmentRight",
+        "numberOfLines" : "1",
+        "data" : "[paddedtime]",
+        "frame" : {
+          "y" : "113",
+          "x" : "center",
+          "width" : "300",
+          "height" : "100"
+        },
+        "fontName" : "CF",
+        "customFontName" : "Groovy_Fast.ttf",
+        "type" : "UILabel",
+        "textColor" : "rgba(162, 68, 84, 1.0)"
+      },
+      "battery_percent" : {
+        "fontSize" : "12",
+        "textAlignment" : "NSTextAlignmentRight",
+        "numberOfLines" : "1",
+        "data" : "Battery [batterypercent]%",
+        "frame" : {
+          "y" : "190",
+          "x" : "center",
+          "width" : "300",
+          "height" : "20"
+        },
+        "fontName" : "CF",
+        "customFontName" : "Groovy_Fast.ttf",
+        "type" : "UILabel",
+        "textStyle" : "uppercase",
+        "textColor" : "rgba(162, 68, 84, 1.0)"
+      }
+    }
+  }
+}
