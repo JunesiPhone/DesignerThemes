@@ -47,6 +47,10 @@
         "Ambre":{
             "img": "Ambre.jpg",
             "downloads": "[Ambre.json, Ambre.jpg, ambre1.png]"
+        },
+        "Outlook":{
+            "img": "Outlook.jpg",
+            "downloads": "[Outlook.json, Outlook.jpg, building.otf, canter.otf, codebold.otf]"
         }
     }
 }
