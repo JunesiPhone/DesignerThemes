@@ -1,0 +1,116 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "ambre" : {
+        "frame" : {
+          "y" : "200",
+          "x" : "center",
+          "width" : "300",
+          "height" : "150"
+        },
+        "contentMode" : "scaleAspectFit",
+        "imageURL" : "ambre1.png",
+        "type" : "UIImageView"
+      },
+      "container" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "225",
+          "x" : "center",
+          "width" : "300",
+          "height" : "105"
+        },
+        "children" : {
+          "minute" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "25",
+              "x" : "170",
+              "width" : "80",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[minute]",
+            "fontSize" : "44",
+            "fontName" : "Helvetica-BoldOblique",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 0.0)"
+            }
+          },
+          "date" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "67",
+              "x" : "155",
+              "width" : "120",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[shortday] [paddeddate] [shortmonth]",
+            "fontSize" : "15",
+            "fontName" : "Helvetica-Oblique",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "hour" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "15",
+              "x" : "15",
+              "width" : "120",
+              "height" : "75"
+            },
+            "kerning" : "-2",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]",
+            "fontSize" : "83",
+            "fontName" : "Helvetica-BoldOblique",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 0.0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "5",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "scale" : "0"
+      }
+    }
+  }
+}

@@ -43,6 +43,10 @@
         "Swirl":{
             "img": "Swirl.jpg",
             "downloads": "[Swirl.json, Swirl.jpg, Groovy_Fast.ttf]"
+        },
+        "Ambre":{
+            "img": "Ambre.jpg",
+            "downloads": "[Ambre.json, Ambre.jpg, ambre1.png]"
         }
     }
 }
