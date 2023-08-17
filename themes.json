@@ -51,6 +51,10 @@
         "Outlook":{
             "img": "Outlook.jpg",
             "downloads": "[Outlook.json, Outlook.jpg, building.otf, canter.otf, codebold.otf]"
+        },
+        "EliseOne":{
+            "img": "EliseOne.jpg",
+            "downloads": "[EliseOne.json, EliseOne.jpg, arista.otf]"
         }
     }
 }

@@ -1,0 +1,121 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "condition_" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "90",
+          "x" : "center",
+          "width" : "300",
+          "height" : "500"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255, 255, 255, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "5",
+        "data" : "Currently outside it’s [condition] with a temperature of [temperature] degrees. But who really knows….",
+        "fontSize" : "13",
+        "fontName" : "arista.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.4)",
+          "x" : "0",
+          "radius" : "2"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "220",
+          "x" : "center",
+          "width" : "130",
+          "height" : "130"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "clima"
+      },
+      "time_label" : {
+        "fontSize" : "60",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "frame" : {
+          "y" : "140",
+          "x" : "center",
+          "width" : "300",
+          "height" : "150"
+        },
+        "textShadow" : {
+          "y" : 3,
+          "radius" : 3,
+          "x" : 0,
+          "color" : "rgba(0, 0, 0, 0.4)"
+        },
+        "fontName" : "arista.otf",
+        "kerning" : "3",
+        "type" : "UILabel",
+        "textColor" : "rgba(250, 227, 216, 1.0)",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)"
+      },
+      "day" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "80",
+          "x" : "center",
+          "width" : "300",
+          "height" : "200"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "y" : "300",
+        "textColor" : "rgba(255, 255, 255, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Today is [day]",
+        "fontSize" : "30",
+        "fontName" : "arista.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.4)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "year" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "360",
+          "x" : "center",
+          "width" : "80",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(250, 227, 216, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[year]",
+        "fontSize" : "30",
+        "fontName" : "arista.otf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.4)"
+        }
+      }
+    }
+  }
+}
