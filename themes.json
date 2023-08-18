@@ -55,6 +55,10 @@
         "EliseOne":{
             "img": "EliseOne.jpg",
             "downloads": "[EliseOne.json, EliseOne.jpg, arista.otf]"
+        },
+        "E.Des1":{
+            "img": "E.Des1.jpg",
+            "downloads": "[E.Des1.json, E.Des1.jpg]"
         }
     }
 }

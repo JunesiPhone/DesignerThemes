@@ -1,0 +1,205 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "Battery" : {
+        "textStyle" : "",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "604",
+          "x" : "center",
+          "width" : "400",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Your battery has [batterypercent]% power left.",
+        "fontSize" : "12",
+        "fontName" : "Avenir-Book",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "Weather" : {
+        "textStyle" : "",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "580",
+          "x" : "center",
+          "width" : "200",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "2",
+        "data" : "It’s [day1condition] outside and the temp is around [temperature][temptype].",
+        "fontSize" : "12",
+        "fontName" : "Avenir-Book",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "Date" : {
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "530",
+          "x" : "center",
+          "width" : "400",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[dateordinal] of [month]",
+        "fontSize" : "20",
+        "fontName" : "Avenir-Black",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "Text" : {
+        "textStyle" : "",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "620",
+          "x" : "center",
+          "width" : "400",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Have a great f*cking day! :)",
+        "fontSize" : "12",
+        "fontName" : "Avenir-Book",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "TimeBlock" : {
+        "rotate" : "15",
+        "backgroundColor" : "rgba(180, 56, 40, 0.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "440",
+          "x" : "200",
+          "width" : "120",
+          "height" : "70"
+        },
+        "borderWidth" : "3",
+        "cornerRadius" : "0",
+        "borderColor" : "rgba(196, 41, 28, 1.0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "TimeBox2" : {
+        "rotate" : "15",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "445",
+          "x" : "206",
+          "width" : "108",
+          "height" : "60"
+        },
+        "children" : {
+          "Time" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "11",
+              "x" : "13",
+              "width" : "80",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "fontSize" : "22",
+            "fontName" : "Futura-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0.7)"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(196, 41, 28, 1.0)",
+        "scale" : "0"
+      },
+      "It's_f*cking_[day]" : {
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "500",
+          "x" : "center",
+          "width" : "400",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "It’s f*cking [day]",
+        "fontSize" : "25",
+        "fontName" : "Avenir-Black",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "FU" : {
+        "frame" : {
+          "y" : "660",
+          "x" : "100",
+          "width" : "200",
+          "height" : "100"
+        },
+        "contentMode" : "scaleAspectFit",
+        "imageURL" : "https:\/\/i.ibb.co\/tYBPCMT\/009-D6-D60-08-E7-4184-B41-A-AC38345-E9085.png",
+        "type" : "UIImageView"
+      }
+    }
+  }
+}
