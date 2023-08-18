@@ -59,6 +59,15 @@
         "E.Des1":{
             "img": "E.Des1.jpg",
             "downloads": "[E.Des1.json, E.Des1.jpg]"
-        }
+        },
+        "Shaun1":{
+            "img": "Shaun1.jpg",
+            "downloads": "[Shaun1.json, Shaun1.jpg, Bold.ttf, pic2.png, Signerica.ttf]"
+        },
+        "Shaun2":{
+            "img": "Shaun2.jpg",
+            "downloads": "[Shaun2.json, Shaun2.jpg, Bold.ttf, pic.png, Signerica.ttf]"
+        },
+
     }
 }

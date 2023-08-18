@@ -1,0 +1,292 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "shadow" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "356",
+          "x" : "66",
+          "width" : "156",
+          "height" : "268"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "10",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(0,0,0,0.3)",
+        "scale" : "0"
+      },
+      "battery" : {
+        "textStyle" : "Lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "517",
+          "x" : "235",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Battery is at [batterypercent]%",
+        "fontSize" : "15",
+        "fontName" : "AppleSDGothicNeo-Light",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "time" : {
+        "textStyle" : "Lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "483",
+          "x" : "235",
+          "width" : "150",
+          "height" : "30"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "The time is [paddedhour][minute]",
+        "fontSize" : "15",
+        "fontName" : "AppleSDGothicNeo-Light",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.0)"
+        }
+      },
+      "dot" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "478",
+          "x" : "323",
+          "width" : "5",
+          "height" : "5"
+        },
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(168, 39, 44, 1.0)",
+        "scale" : "0"
+      },
+      "good" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "398",
+          "x" : "235",
+          "width" : "100",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Good",
+        "fontSize" : "25",
+        "fontName" : "Bold.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.0)"
+        }
+      },
+      "date" : {
+        "textStyle" : "Lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "498",
+          "x" : "235",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day] [date] [month]",
+        "fontSize" : "15",
+        "fontName" : "AppleSDGothicNeo-Light",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "weather" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "555",
+          "x" : "235",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] - [temperature][temptype]",
+        "fontSize" : "15",
+        "fontName" : "AppleSDGothicNeo-Light",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(32, 32, 32, 0.0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "city" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "536",
+          "x" : "235",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Located in [city]",
+        "fontSize" : "15",
+        "fontName" : "AppleSDGothicNeo-Light",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "big_box" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "350",
+          "x" : "68",
+          "width" : "152",
+          "height" : "272"
+        },
+        "children" : {
+          "image" : {
+            "frame" : {
+              "y" : "-30",
+              "x" : "47",
+              "width" : "100",
+              "height" : "340"
+            },
+            "contentMode" : "scaleAspectFit",
+            "imageURL" : "pic.png",
+            "type" : "UIImageView"
+          }
+        },
+        "borderWidth" : "6",
+        "cornerRadius" : "10",
+        "borderColor" : "rgba(38, 38, 38, 1.0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(32,32,32,1.0)",
+        "scale" : "0"
+      },
+      "morning" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "426",
+          "x" : "235",
+          "width" : "200",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[timeofday]",
+        "fontSize" : "25",
+        "fontName" : "Bold.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.0)"
+        }
+      },
+      "hey" : {
+        "textStyle" : "Lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "374",
+          "x" : "235",
+          "width" : "80",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(168, 39, 44, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "hey",
+        "fontSize" : "22",
+        "fontName" : "Signerica.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.0)"
+        }
+      },
+      "name" : {
+        "textStyle" : "Lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "454",
+          "x" : "235",
+          "width" : "95",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(102, 102, 102, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Shaun",
+        "fontSize" : "25",
+        "fontName" : "Bold.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      }
+    }
+  }
+}

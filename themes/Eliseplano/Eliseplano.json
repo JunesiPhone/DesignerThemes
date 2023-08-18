@@ -1,0 +1,182 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "charge" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "250",
+          "x" : "center",
+          "width" : "200",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Battery at [batterypercent]%   [charging]",
+        "fontSize" : "12",
+        "fontName" : "Dosis-Book",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "time" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "300",
+          "x" : "center",
+          "width" : "200",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(239, 140, 86, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Time: [paddedhour]:[minute]",
+        "fontSize" : "15",
+        "fontName" : "Dosis-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "feels_like" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "280",
+          "x" : "center",
+          "width" : "350",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "The current weather conditions make it feel like [feelslike]",
+        "fontSize" : "12",
+        "fontName" : "Dosis-Book",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "time_label" : {
+        "fontSize" : "18",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "numberOfLines" : "1",
+        "data" : "It’s [day] [dateordinal] ",
+        "frame" : {
+          "y" : "170",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0, 0, 0, 0.7)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "fontName" : "Dosis-Bold",
+        "kerning" : "1",
+        "type" : "UILabel",
+        "textColor" : "rgba(239, 140, 86, 1.0)",
+        "backgroundColor" : "rgba(255,255,255,0)"
+      },
+      "month" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "210",
+          "x" : "center",
+          "width" : "200",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(254, 251, 192, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month]",
+        "fontSize" : "20",
+        "fontName" : "Dosis-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "Condition_" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "265",
+          "x" : "center",
+          "width" : "300",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] & [temperature] degrees ",
+        "fontSize" : "12",
+        "fontName" : "Dosis-Book",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "battery" : {
+        "radius" : "2",
+        "lowColor" : "rgba(222, 120, 157, 1.0)",
+        "backColor" : "rgba(0,0,0,1.0)",
+        "frame" : {
+          "y" : "250",
+          "x" : "center",
+          "width" : "250",
+          "height" : "4"
+        },
+        "type" : "BatteryBar",
+        "midColor" : "rgba(240, 146, 134, 1.0)",
+        "innerColor" : "rgba(90, 196, 247, 1.0)"
+      },
+      "Icon" : {
+        "frame" : {
+          "y" : "140",
+          "x" : "center",
+          "width" : "50",
+          "height" : "50"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Plano"
+      }
+    }
+  }
+}
