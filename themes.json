@@ -56,6 +56,10 @@
             "img": "EliseOne.jpg",
             "downloads": "[EliseOne.json, EliseOne.jpg, arista.otf]"
         },
+        "Eliseplano":{
+            "img": "Eliseplano.jpg",
+            "downloads": "[Eliseplano.json, Eliseplano.jpg, Plano/weathericons]"
+        },
         "E.Des1":{
             "img": "E.Des1.jpg",
             "downloads": "[E.Des1.json, E.Des1.jpg]"
