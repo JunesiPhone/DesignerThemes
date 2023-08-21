@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "x" : "0",
-      "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
     },
     "children" : {
       "charge" : {
@@ -23,9 +23,9 @@
         "textColor" : "rgba(255,255,255,1.0)",
         "type" : "UILabel",
         "numberOfLines" : "1",
-        "data" : "Battery at [batterypercent]%   [charging]",
+        "data" : "Battery at [batterypercent]% [charging]",
         "fontSize" : "12",
-        "fontName" : "Dosis-Book",
+        "fontName" : "Dosis-Book.ttf",
         "textShadow" : {
           "y" : "3",
           "radius" : "3",
@@ -49,7 +49,7 @@
         "numberOfLines" : "1",
         "data" : "Time: [paddedhour]:[minute]",
         "fontSize" : "15",
-        "fontName" : "Dosis-Bold",
+        "fontName" : "Dosis-Bold.otf",
         "textShadow" : {
           "y" : "3",
           "radius" : "3",
@@ -73,7 +73,7 @@
         "numberOfLines" : "1",
         "data" : "The current weather conditions make it feel like [feelslike]",
         "fontSize" : "12",
-        "fontName" : "Dosis-Book",
+        "fontName" : "Dosis-Book.ttf",
         "textShadow" : {
           "y" : "3",
           "color" : "rgba(0,0,0,0.7)",
@@ -98,7 +98,7 @@
           "x" : 0,
           "radius" : 3
         },
-        "fontName" : "Dosis-Bold",
+        "fontName" : "Dosis-Bold.otf",
         "kerning" : "1",
         "type" : "UILabel",
         "textColor" : "rgba(239, 140, 86, 1.0)",
@@ -120,7 +120,7 @@
         "numberOfLines" : "1",
         "data" : "[month]",
         "fontSize" : "20",
-        "fontName" : "Dosis-Bold",
+        "fontName" : "Dosis-Bold.otf",
         "textShadow" : {
           "y" : "3",
           "color" : "rgba(0,0,0,0.7)",
@@ -144,7 +144,7 @@
         "numberOfLines" : "1",
         "data" : "[condition] & [temperature] degrees ",
         "fontSize" : "12",
-        "fontName" : "Dosis-Book",
+        "fontName" : "Dosis-Book.ttf",
         "textShadow" : {
           "y" : "3",
           "color" : "rgba(0,0,0,0.7)",
