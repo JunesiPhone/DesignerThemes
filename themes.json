@@ -76,6 +76,10 @@
             "img": "E.Des2.jpg",
             "downloads": "[E.Des2.json, E.Des2.jpg]"
         },
+        "Eliseblur":{
+            "img": "Eliseblur.jpg",
+            "downloads": "[Eliseblur.json, Eliseblur.jpg, gothicregular.otf, Signatrue.otf, tick/weathericons]"
+        },
 
 
     }
