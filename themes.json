@@ -72,6 +72,11 @@
             "img": "Shaun2.jpg",
             "downloads": "[Shaun2.json, Shaun2.jpg, Bold.ttf, pic.png, Signerica.ttf]"
         },
+        "E.Des2":{
+            "img": "E.Des2.jpg",
+            "downloads": "[E.Des2.json, E.Des2.jpg]"
+        },
+
 
     }
 }

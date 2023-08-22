@@ -1,0 +1,273 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "Stripe" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "600",
+          "x" : "center",
+          "width" : "300",
+          "height" : "3"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(254, 252, 255, 1.0)",
+        "scale" : "0"
+      },
+      "Box1" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(255, 254, 255, 1.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "618",
+          "x" : "150",
+          "width" : "57",
+          "height" : "57"
+        },
+        "children" : {
+          "TodayDate" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "13",
+              "x" : "-12",
+              "width" : "80",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 6, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[date]",
+            "fontSize" : "15",
+            "fontName" : "DamascusBold",
+            "textShadow" : {
+              "y" : "0",
+              "color" : "rgba(0,0,0,0.7)",
+              "x" : "0",
+              "radius" : "0"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "17",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "Minutes" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "381",
+          "x" : "150",
+          "width" : "300",
+          "height" : "300"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(194, 194, 194, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[minute]",
+        "fontSize" : "150",
+        "fontName" : "DINCondensed-Bold",
+        "textShadow" : {
+          "y" : "0",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      },
+      "Dot2" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(255, 254, 255, 0.4)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "619",
+          "x" : "224",
+          "width" : "56",
+          "height" : "56"
+        },
+        "children" : {
+          "Battery" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "12",
+              "x" : "-10",
+              "width" : "80",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[batterypercent]%",
+            "fontSize" : "15",
+            "fontName" : "DamascusBold",
+            "textShadow" : {
+              "y" : "0",
+              "color" : "rgba(0,0,0,0.7)",
+              "x" : "0",
+              "radius" : "0"
+            }
+          }
+        },
+        "borderWidth" : "2",
+        "cornerRadius" : "17",
+        "borderColor" : "rgba(255, 255, 255, 1.0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "Today" : {
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "515",
+          "x" : "47",
+          "width" : "90",
+          "height" : "100"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortday].",
+        "fontSize" : "33",
+        "fontName" : "Damascus",
+        "textShadow" : {
+          "y" : "0",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      },
+      "Dot" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "641",
+          "x" : "111",
+          "width" : "10",
+          "height" : "10"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "5",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "Box3" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "619",
+          "x" : "298",
+          "width" : "57",
+          "height" : "57"
+        },
+        "children" : {
+          "Weather" : {
+            "textStyle" : "lowercase",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "12",
+              "x" : "-10",
+              "width" : "80",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[temperature]c",
+            "fontSize" : "15",
+            "fontName" : "DamascusBold",
+            "textShadow" : {
+              "y" : "0",
+              "radius" : "0",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0.7)"
+            }
+          }
+        },
+        "borderWidth" : "2",
+        "cornerRadius" : "17",
+        "borderColor" : "rgba(255, 255, 255, 1.0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(255, 254, 255, 0.4)",
+        "scale" : "0"
+      },
+      "Month" : {
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "630",
+          "x" : "34",
+          "width" : "80",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortmonth]",
+        "fontSize" : "15",
+        "fontName" : "Damascus",
+        "textShadow" : {
+          "y" : "0",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : ""
+        }
+      },
+      "Hours" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "257",
+          "x" : "150",
+          "width" : "300",
+          "height" : "300"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(194, 194, 194, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]",
+        "fontSize" : "150",
+        "fontName" : "DINCondensed-Bold",
+        "textShadow" : {
+          "y" : "0",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      }
+    }
+  }
+}
