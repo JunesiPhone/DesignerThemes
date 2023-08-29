@@ -209,7 +209,7 @@
         },
         "forecast" : "none",
         "type" : "WeatherIcon",
-        "iconSet" : "icon"
+        "iconSet" : "elisedual"
       },
       "forecast_3_days" : {
         "frame" : {
