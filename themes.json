@@ -91,6 +91,10 @@
         "E.Des3":{
             "img": "E.Des3.jpg",
             "downloads": "[E.Des3.json, E.Des3.jpg, Signerica_Fat.ttf, PhenomenaBlack.otf]"
+        },
+        "E.Des4":{
+            "img": "E.Des4.jpg",
+            "downloads": "[E.Des4.json, E.Des4.jpg]"
         }
     }
 }
