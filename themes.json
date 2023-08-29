@@ -88,7 +88,9 @@
             "img": "EliseDualGradient.jpg",
             "downloads": "[EliseDualGradient.json, EliseDualGradient.jpg, BetterSignature.otf, report.otf, elisedual/weathericons]"
         },
-
-
+        "E.Des3":{
+            "img": "E.Des3.jpg",
+            "downloads": "[E.Des3.json, E.Des3.jpg, Signerica_Fat.ttf, PhenomenaBlack.otf]"
+        }
     }
 }
