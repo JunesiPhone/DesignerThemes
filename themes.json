@@ -80,6 +80,10 @@
             "img": "EliseBlur.jpg",
             "downloads": "[EliseBlur.json, EliseBlur.jpg, gothicregular.otf, Signatrue.otf, tick/weathericons]"
         },
+        "Senses":{
+            "img": "Senses.jpg",
+            "downloads": "[Senses.json, Senses.jpg, bbl/weathericons]"
+        },
 
 
     }
