@@ -242,7 +242,7 @@
             },
             "forecast" : "day2",
             "type" : "WeatherIcon",
-            "iconSet" : "icon"
+            "iconSet" : "elisedual"
           },
           "weather_icon1" : {
             "frame" : {
@@ -253,7 +253,7 @@
             },
             "forecast" : "day1",
             "type" : "WeatherIcon",
-            "iconSet" : "icon"
+            "iconSet" : "elisedual"
           }
         }
       }
