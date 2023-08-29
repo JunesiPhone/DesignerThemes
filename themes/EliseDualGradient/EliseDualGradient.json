@@ -231,7 +231,7 @@
             },
             "forecast" : "day3",
             "type" : "WeatherIcon",
-            "iconSet" : "icon"
+            "iconSet" : "elisedual"
           },
           "weather_icon2" : {
             "frame" : {
