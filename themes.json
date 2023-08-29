@@ -76,13 +76,17 @@
             "img": "E.Des2.jpg",
             "downloads": "[E.Des2.json, E.Des2.jpg]"
         },
-        "EliseBlur":{
-            "img": "EliseBlur.jpg",
-            "downloads": "[EliseBlur.json, EliseBlur.jpg, gothicregular.otf, Signatrue.otf, tick/weathericons]"
+        "EliseBlurred":{
+            "img": "EliseBlurred.jpg",
+            "downloads": "[EliseBlurred.json, EliseBlurred.jpg, gothicregular.otf, Signatrue.otf, tick/weathericons]"
         },
         "Senses":{
             "img": "Senses.jpg",
             "downloads": "[Senses.json, Senses.jpg, bbl/weathericons]"
+        },
+        "EliseDualGradient":{
+            "img": "EliseDualGradient.jpg",
+            "downloads": "[EliseDualGradient.json, EliseDualGradient.jpg, BetterSignature.otf, report.otf, elisedual/weathericons]"
         },
 
 
