@@ -103,6 +103,10 @@
         "E.Des6":{
             "img": "E.Des6.jpg",
             "downloads": "[E.Des6.json, E.Des6.jpg, building.otf, SpicyRice-Regular.ttf]"
+        },
+        "Soda_Forecast":{
+            "img": "Soda_Forecast.jpg",
+            "downloads": "[Soda_Forecast.json, Soda_Forecast.jpg, Empires.otf, Heathergreen.otf, Report.ttf, dubs1/weathericons]"
         }
     }
 }

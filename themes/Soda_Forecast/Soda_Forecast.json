@@ -1,0 +1,462 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "userInteractionEnabled" : "NO",
+      "height" : "screen_height",
+      "x" : "0"
+    },
+    "order" : [
+      "BG",
+      "time_label",
+      "Circle2",
+      "Circle1",
+      "WIcon",
+      "Kalender",
+      "Circle3",
+      "Circle4",
+      "Forecast_3D",
+      "WeatherDesc",
+      "Temp",
+      "BattBar",
+      "BattPer",
+      "ToD",
+      "User"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "WIcon" : {
+        "frame" : {
+          "y" : "363",
+          "x" : "76",
+          "width" : "60",
+          "height" : "60"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "dubs1"
+      },
+      "time_label" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "378",
+          "x" : "100",
+          "width" : "300",
+          "height" : "80"
+        },
+        "kerning" : 4,
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "borderWidth" : 0,
+        "fontSize" : "30",
+        "fontName" : "Heathergreen.otf",
+        "textShadow" : {
+          "y" : 3,
+          "radius" : 3,
+          "x" : 0,
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : 0
+      },
+      "User" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "153",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "2",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(194, 194, 194, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "@0j0k3r",
+        "borderWidth" : "0",
+        "fontSize" : "20",
+        "fontName" : "Report.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 0.6)",
+          "x" : "5",
+          "radius" : "3"
+        }
+      },
+      "Circle2" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "358",
+          "x" : "68",
+          "width" : "75",
+          "height" : "75"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "38",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(54, 54, 54, 1.0)",
+        "scale" : "0"
+      },
+      "ToD" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "110",
+          "x" : "center",
+          "width" : "350",
+          "height" : "60"
+        },
+        "kerning" : "2",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "textColor" : "rgba(194, 194, 194, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[timeofday] ",
+        "borderWidth" : "0",
+        "fontSize" : "40",
+        "fontName" : "Empires.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 0.6)",
+          "x" : "5",
+          "radius" : "3"
+        }
+      },
+      "Temp" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "403",
+          "x" : "95",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[temperature] [degreeSymbol]",
+        "borderWidth" : "0",
+        "fontSize" : "25",
+        "fontName" : "Report.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "Circle4" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "693",
+          "x" : "116",
+          "width" : "162",
+          "height" : "72"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "20",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(27, 27, 27, 1.0)",
+        "scale" : "0"
+      },
+      "Forecast_3D" : {
+        "frame" : {
+          "y" : "679",
+          "x" : "50",
+          "width" : "233",
+          "height" : "100"
+        },
+        "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+        "type" : "UIView",
+        "cornerRadius" : 10,
+        "children" : {
+          "day2day" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "numberOfLines" : "1",
+            "data" : "[day2shortday]",
+            "frame" : {
+              "y" : "20",
+              "x" : "67",
+              "width" : "60",
+              "height" : "10"
+            },
+            "fontName" : "PingFangTC-Regular",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "day3lowhi" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "numberOfLines" : "1",
+            "data" : "[day3high]°\/[day3low]°",
+            "frame" : {
+              "y" : "67",
+              "x" : "117",
+              "width" : "60",
+              "height" : "10"
+            },
+            "fontName" : "PingFangTC-Regular",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "day4day" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "numberOfLines" : "1",
+            "data" : "[day4shortday]",
+            "frame" : {
+              "y" : "20",
+              "x" : "169",
+              "width" : "60",
+              "height" : "10"
+            },
+            "fontName" : "PingFangTC-Regular",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "day3day" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "numberOfLines" : "1",
+            "data" : "[day3shortday]",
+            "frame" : {
+              "y" : "20",
+              "x" : "116",
+              "width" : "60",
+              "height" : "10"
+            },
+            "fontName" : "PingFangTC-Regular",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "day4lowhi" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "numberOfLines" : "1",
+            "data" : "[day4high]°\/[day4low]°",
+            "frame" : {
+              "y" : "67",
+              "x" : "171",
+              "width" : "60",
+              "height" : "10"
+            },
+            "fontName" : "PingFangTC-Regular",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "weather_icon4" : {
+            "frame" : {
+              "y" : "22",
+              "x" : "182",
+              "width" : "35",
+              "height" : "50"
+            },
+            "forecast" : "day4",
+            "type" : "WeatherIcon",
+            "iconSet" : "dubs1"
+          },
+          "weather_icon3" : {
+            "frame" : {
+              "y" : "22",
+              "x" : "129",
+              "width" : "35",
+              "height" : "50"
+            },
+            "forecast" : "day3",
+            "type" : "WeatherIcon",
+            "iconSet" : "dubs1"
+          },
+          "day2lowhi" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "numberOfLines" : "1",
+            "data" : "[day2high]°\/[day2low]°",
+            "frame" : {
+              "y" : "67",
+              "x" : "67",
+              "width" : "60",
+              "height" : "10"
+            },
+            "fontName" : "PingFangTC-Regular",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "weather_icon2" : {
+            "frame" : {
+              "y" : "22",
+              "x" : "77",
+              "width" : "35",
+              "height" : "50"
+            },
+            "forecast" : "day2",
+            "type" : "WeatherIcon",
+            "iconSet" : "dubs1"
+          }
+        }
+      },
+      "Kalender" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "402",
+          "x" : "230",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "\/ [month]  [date]",
+        "borderWidth" : "0",
+        "fontSize" : "20",
+        "fontName" : "Heathergreen.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "Circle1" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(27, 27, 27, 1.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "364",
+          "x" : "74",
+          "width" : "62",
+          "height" : "62"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "31",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "WeatherDesc" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "430",
+          "x" : "30",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition]",
+        "borderWidth" : "0",
+        "fontSize" : "20",
+        "fontName" : "Empires.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "BG" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "395",
+          "x" : "20",
+          "width" : "350",
+          "height" : "333"
+        },
+        "children" : {
+
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "30",
+        "borderColor" : "rgba(0, 0, 0, 1.0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(51, 51, 51, 0.5)",
+        "scale" : "0"
+      },
+      "BattBar" : {
+        "radius" : "4",
+        "lowColor" : "rgba(208, 125, 156, 1.0)",
+        "backColor" : "rgba(0,0,0,1.0)",
+        "frame" : {
+          "y" : "447",
+          "x" : "263",
+          "width" : "71",
+          "height" : "7"
+        },
+        "type" : "BatteryBar",
+        "midColor" : "rgba(227, 150, 138, 1.0)",
+        "innerColor" : "rgba(118, 194, 242, 1.0)"
+      },
+      "BattPer" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "429",
+          "x" : "225",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[batterypercent] %",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Report.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "Circle3" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(54, 54, 54, 1.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "688",
+          "x" : "111",
+          "width" : "171",
+          "height" : "82"
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "25",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      }
+    }
+  }
+}
