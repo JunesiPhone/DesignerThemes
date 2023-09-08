@@ -107,6 +107,10 @@
         "Soda_Forecast":{
             "img": "Soda_Forecast.jpg",
             "downloads": "[Soda_Forecast.json, Soda_Forecast.jpg, Empires.otf, Heathergreen.otf, Report.ttf, dubs1/weathericons]"
+        },
+        "E.Dminim":{
+            "img": "E.Dminim.jpg",
+            "downloads": "[E.Dminim.json, E.Dminim.jpg]"
         }
     }
 }
