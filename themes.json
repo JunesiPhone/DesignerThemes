@@ -99,6 +99,10 @@
         "E.Des5":{
             "img": "E.Des5.jpg",
             "downloads": "[E.Des5.json, E.Des5.jpg, digital-7.ttf, Signerica_Fat.ttf]"
+        },
+        "E.Des6":{
+            "img": "E.Des6.jpg",
+            "downloads": "[E.Des6.json, E.Des6.jpg, building.otf, SpicyRice-Regular.ttf]"
         }
     }
 }
