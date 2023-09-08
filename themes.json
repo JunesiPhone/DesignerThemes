@@ -115,7 +115,11 @@
         "E.Des7":{
             "img": "E.Des7.jpg",
             "downloads": "[E.Des7.json, E.Des7.jpg, digital-7.ttf, calendar.png]"
-        }
+        },
+        "Side_Panel":{
+            "img": "Side_Panel.jpg",
+            "downloads": "[Side_Panel.json, Side_Panel.jpg, Signerica.ttf, Steelfish.ttf, tick/weathericons]"
+        },
     }
 }
 

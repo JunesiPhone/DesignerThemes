@@ -1,0 +1,580 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "box" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(33, 33, 33, 1.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "140",
+          "x" : "10",
+          "width" : "200",
+          "height" : "548"
+        },
+        "children" : {
+          "battery_label" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "None",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "470",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Battery is at [batterypercent]%",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "temp" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "210",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[temperature][degreeSymbol][temptype]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "condition_" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "240",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "20",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[hour][minute]",
+            "borderWidth" : "0",
+            "fontSize" : "40",
+            "fontName" : "Steelfish.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "55",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[shortday]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "am\/pm" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "40",
+              "x" : "27",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(200, 62, 47, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[ampm]",
+            "borderWidth" : "0",
+            "fontSize" : "20",
+            "fontName" : "Signerica.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "dot" : {
+            "rotate" : "0",
+            "scale" : "0",
+            "backgroundColor" : "rgba(200, 62, 47, 1.0)",
+            "frame" : {
+              "y" : "472",
+              "x" : "115",
+              "width" : "4",
+              "height" : "4"
+            },
+            "borderWidth" : "0",
+            "cornerRadius" : "2",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "UIView",
+            "blurColor" : "dark",
+            "blurAlpha" : "0"
+          },
+          "info_label" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "442",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Info",
+            "borderWidth" : "0",
+            "fontSize" : "30",
+            "fontName" : "Steelfish.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "85",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[dateordinal]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "weather_icon" : {
+            "frame" : {
+              "y" : "128",
+              "x" : "60",
+              "width" : "80",
+              "height" : "80"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "tick"
+          },
+          "city" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "225",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[city]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "signal" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "485",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Signal - [signalpercent]%",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "forecast" : {
+            "frame" : {
+              "y" : "305",
+              "x" : "9",
+              "width" : "188",
+              "height" : "120"
+            },
+            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "type" : "UIView",
+            "cornerRadius" : 10,
+            "children" : {
+              "day2precip" : {
+                "fontSize" : "10",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day2precip]%",
+                "frame" : {
+                  "y" : "95",
+                  "x" : "60",
+                  "width" : "60",
+                  "height" : "8"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(170,203,255,1.0)"
+              },
+              "day1lowhi" : {
+                "fontSize" : "FH",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day1high]°\/[day1low]°",
+                "frame" : {
+                  "y" : "80",
+                  "x" : "0",
+                  "width" : "60",
+                  "height" : "10"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(255,255,255,1.0)"
+              },
+              "day2lowhi" : {
+                "fontSize" : "FH",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day2high]°\/[day2low]°",
+                "frame" : {
+                  "y" : "80",
+                  "x" : "60",
+                  "width" : "60",
+                  "height" : "10"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(255,255,255,1.0)"
+              },
+              "day3lowhi" : {
+                "fontSize" : "FH",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day3high]°\/[day3low]°",
+                "frame" : {
+                  "y" : "80",
+                  "x" : "120",
+                  "width" : "60",
+                  "height" : "10"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(255,255,255,1.0)"
+              },
+              "day3day" : {
+                "fontSize" : "15",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day3shortday]",
+                "frame" : {
+                  "y" : "10",
+                  "x" : "120",
+                  "width" : "60",
+                  "height" : "20"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(183, 179, 178, 1.0)"
+              },
+              "day1precip" : {
+                "fontSize" : "10",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day1precip]%",
+                "frame" : {
+                  "y" : "95",
+                  "x" : "0",
+                  "width" : "60",
+                  "height" : "8"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(170,203,255,1.0)"
+              },
+              "day2day" : {
+                "fontSize" : "15",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day2shortday]",
+                "frame" : {
+                  "y" : "10",
+                  "x" : "60",
+                  "width" : "60",
+                  "height" : "20"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(183, 179, 178, 1.0)"
+              },
+              "day1day" : {
+                "fontSize" : "15",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day1shortday]",
+                "frame" : {
+                  "y" : "10",
+                  "x" : "0",
+                  "width" : "60",
+                  "height" : "20"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(183, 179, 178, 1.0)"
+              },
+              "weather_icon1" : {
+                "frame" : {
+                  "y" : "33",
+                  "x" : "10",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "forecast" : "day1",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              },
+              "day3precip" : {
+                "fontSize" : "10",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day3precip]%",
+                "frame" : {
+                  "y" : "95",
+                  "x" : "120",
+                  "width" : "60",
+                  "height" : "8"
+                },
+                "fontName" : "AppleSDGothicNeo-UltraLight",
+                "type" : "UILabel",
+                "textColor" : "rgba(170,203,255,1.0)"
+              },
+              "weather_icon2" : {
+                "frame" : {
+                  "y" : "33",
+                  "x" : "70",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "forecast" : "day2",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              },
+              "weather_icon3" : {
+                "frame" : {
+                  "y" : "33",
+                  "x" : "130",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "forecast" : "day3",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              }
+            }
+          },
+          "wifi_strength" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "500",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Wifi - [wifipercent]%",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "month" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "70",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "humidity_" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "255",
+              "x" : "25",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(183, 179, 178, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[humidity]% - humidity ",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AppleSDGothicNeo-UltraLight",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "borderWidth" : "6",
+        "cornerRadius" : "10",
+        "borderColor" : "rgba(50, 50, 50, 1.0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      }
+    }
+  }
+}
