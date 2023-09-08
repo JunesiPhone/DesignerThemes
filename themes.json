@@ -111,6 +111,10 @@
         "E.Dminim":{
             "img": "E.Dminim.jpg",
             "downloads": "[E.Dminim.json, E.Dminim.jpg]"
+        },
+        "E.Des7":{
+            "img": "E.Des7.jpg",
+            "downloads": "[E.Des7.json, E.Des7.jpg, digital-7.ttf, calendar.png]"
         }
     }
 }
