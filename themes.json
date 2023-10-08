@@ -72,6 +72,22 @@
             "img": "Side_Panel.jpg",
             "downloads": "[Side_Panel.json, Side_Panel.jpg, Signerica.ttf, Steelfish.ttf, tick/weathericons]"
         },
+        "HTCSB":{
+            "img": "HTCSB.jpg",
+            "downloads": "[HTCSB.json, HTCSB.jpg, camera.png, entypo.otf, gears.png, glare.png, glare2.png, Mashup.otf, mat1.otf, music.png, htc/weathericons]"
+        },
+        "HTCLS":{
+            "img": "HTCLS.jpg",
+            "downloads": "[HTCLS.json, HTCLS.jpg, glare.png, glare2.png, htc/weathericons]"
+        },
+        "HelloSB":{
+            "img": "HelloSB.jpg",
+            "downloads": "[HelloSB.json, HelloSB.jpg, mikadoregular.png, search.png, bikoblack.otf]"
+        },
+        "CW70SB":{
+            "img": "CW70SB.jpg",
+            "downloads": "[CW70SB.json, CW70SB.jpg, HighTide.otf, LouisGeorgeCafe.otf, sanfranheavy.otf]"
+        },
     }
 }
 
