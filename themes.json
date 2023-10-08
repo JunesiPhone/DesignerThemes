@@ -52,18 +52,6 @@
             "img": "Outlook.jpg",
             "downloads": "[Outlook.json, Outlook.jpg, building.otf, canter.otf, codebold.otf]"
         },
-        "EliseOne":{
-            "img": "EliseOne.jpg",
-            "downloads": "[EliseOne.json, EliseOne.jpg, arista.otf]"
-        },
-        "Eliseplano":{
-            "img": "Eliseplano.jpg",
-            "downloads": "[Eliseplano.json, Eliseplano.jpg, Plano/weathericons, Dosis-Bold.otf, Dosis-Book.ttf]"
-        },
-        "E.Des1":{
-            "img": "E.Des1.jpg",
-            "downloads": "[E.Des1.json, E.Des1.jpg]"
-        },
         "Shaun1":{
             "img": "Shaun1.jpg",
             "downloads": "[Shaun1.json, Shaun1.jpg, Bold.ttf, pic2.png, Signerica.ttf]"
@@ -72,49 +60,13 @@
             "img": "Shaun2.jpg",
             "downloads": "[Shaun2.json, Shaun2.jpg, Bold.ttf, pic.png, Signerica.ttf]"
         },
-        "E.Des2":{
-            "img": "E.Des2.jpg",
-            "downloads": "[E.Des2.json, E.Des2.jpg]"
-        },
-        "EliseBlurred":{
-            "img": "EliseBlurred.jpg",
-            "downloads": "[EliseBlurred.json, EliseBlurred.jpg, gothicregular.otf, Signatrue.otf, tick/weathericons]"
-        },
         "Senses":{
             "img": "Senses.jpg",
             "downloads": "[Senses.json, Senses.jpg, bbl/weathericons]"
         },
-        "EliseDualGradient":{
-            "img": "EliseDualGradient.jpg",
-            "downloads": "[EliseDualGradient.json, EliseDualGradient.jpg, BetterSignature.otf, report.otf, elisedual/weathericons]"
-        },
-        "E.Des3":{
-            "img": "E.Des3.jpg",
-            "downloads": "[E.Des3.json, E.Des3.jpg, Signerica_Fat.ttf, PhenomenaBlack.otf]"
-        },
-        "E.Des4":{
-            "img": "E.Des4.jpg",
-            "downloads": "[E.Des4.json, E.Des4.jpg]"
-        },
-        "E.Des5":{
-            "img": "E.Des5.jpg",
-            "downloads": "[E.Des5.json, E.Des5.jpg, digital-7.ttf, Signerica_Fat.ttf]"
-        },
-        "E.Des6":{
-            "img": "E.Des6.jpg",
-            "downloads": "[E.Des6.json, E.Des6.jpg, building.otf, SpicyRice-Regular.ttf]"
-        },
         "Soda_Forecast":{
             "img": "Soda_Forecast.jpg",
             "downloads": "[Soda_Forecast.json, Soda_Forecast.jpg, Empires.otf, Heathergreen.otf, Report.ttf, dubs1/weathericons]"
-        },
-        "E.Dminim":{
-            "img": "E.Dminim.jpg",
-            "downloads": "[E.Dminim.json, E.Dminim.jpg]"
-        },
-        "E.Des7":{
-            "img": "E.Des7.jpg",
-            "downloads": "[E.Des7.json, E.Des7.jpg, digital-7.ttf, calendar.png]"
         },
         "Side_Panel":{
             "img": "Side_Panel.jpg",
