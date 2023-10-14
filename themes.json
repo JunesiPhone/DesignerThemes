@@ -88,6 +88,10 @@
             "img": "CW70SB.jpg",
             "downloads": "[CW70SB.json, CW70SB.jpg, HighTide.otf, LouisGeorgeCafe.otf, sanfranheavy.otf]"
         },
+        "Halloween":{
+            "img": "Halloween.jpg",
+            "downloads": "[Halloween.json, Halloween.jpg, OctoberCrow.otf]"
+        },
     }
 }
 
