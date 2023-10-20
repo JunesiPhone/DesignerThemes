@@ -92,6 +92,10 @@
             "img": "Halloween.jpg",
             "downloads": "[Halloween.json, Halloween.jpg, OctoberCrow.otf]"
         },
+        "CH.40":{
+            "img": "CH.40.jpg",
+            "downloads": "[CH.40.json, CH.40.jpg, latolight.otf, adamasreg.otf, lockicon.png, swhite/weathericons]"
+        },
     }
 }
 

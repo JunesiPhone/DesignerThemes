@@ -1,0 +1,470 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "main" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "319",
+          "height" : "420"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "p3" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "250",
+              "x" : "0",
+              "width" : "150",
+              "height" : "160"
+            },
+            "backgroundColor" : "rgba(51, 51, 51, 0.60)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "bicon" : {
+                "radius" : "2",
+                "lowColor" : "rgba(255,0,0,1.0)",
+                "backColor" : "rgba(255, 255, 255, 1.00)",
+                "frame" : {
+                  "y" : "85",
+                  "x" : "15",
+                  "width" : "30",
+                  "height" : "15"
+                },
+                "type" : "BatteryIcon",
+                "midColor" : "rgba(255,153,64,1.0)",
+                "innerColor" : "rgba(51, 51, 51, 1.00)"
+              },
+              "battpercent" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~20",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> [batterypercent]% left",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                }
+              },
+              "charging" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "lowercase",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~10",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "25"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> [ischarging]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "2",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            },
+            "cornerRadius" : "10",
+            "blurColor" : "dark"
+          },
+          "p2" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "FR~0",
+              "width" : "150",
+              "height" : "160"
+            },
+            "backgroundColor" : "rgba(51, 51, 51, 0.60)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "temp" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~20",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> [temperature] [condition]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "city" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~10",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "25"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> [city]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "wicon" : {
+                "frame" : {
+                  "y" : "60",
+                  "x" : "5",
+                  "width" : "55",
+                  "height" : "55"
+                },
+                "forecast" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "swhite"
+              }
+            },
+            "boxShadow" : {
+              "y" : "2",
+              "color" : "rgba(0, 0, 0, 1.00)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "cornerRadius" : "10",
+            "blurColor" : "dark"
+          },
+          "p1" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "150",
+              "height" : "230"
+            },
+            "backgroundColor" : "rgba(51, 51, 51, 0.60)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "month" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "110",
+                  "x" : "0",
+                  "width" : "70",
+                  "height" : "90"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[firstlettermonth]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "50",
+                "fontName" : "adamasreg.otf",
+                "textShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(192, 70, 46, 0.00)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "clock" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~20",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> [paddedhour]:[minute]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "date" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "lowercase",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~10",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "25"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> [day] [paddeddate]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "2",
+              "color" : "rgba(0, 0, 0, 1.00)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "cornerRadius" : "10",
+            "blurColor" : "dark"
+          },
+          "p4" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "180",
+              "x" : "FR~0",
+              "width" : "150",
+              "height" : "230"
+            },
+            "backgroundColor" : "rgba(51, 51, 51, 0.60)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "taptounlock" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~10",
+                  "x" : "10",
+                  "width" : "85",
+                  "height" : "25"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> tap to unlock",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                }
+              },
+              "locked" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "FB~20",
+                  "x" : "10",
+                  "width" : "105",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "> iphone is locked",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "12",
+                "fontName" : "latolight.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                }
+              },
+              "lockicon" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "138",
+                  "x" : "15",
+                  "width" : "35",
+                  "height" : "35"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "animation" : "none",
+                "cornerRadius" : "0",
+                "imageURL" : "lockicon.png",
+                "type" : "UIImageView",
+                "actions" : "none"
+              },
+              "action" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "unlockDevice",
+                "frame" : {
+                  "y" : "170",
+                  "x" : "0",
+                  "width" : "150",
+                  "height" : "60"
+                },
+                "backgroundColor" : "rgba(0, 0, 0, 0.00)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "cornerRadius" : "5",
+                "blurColor" : "dark"
+              }
+            },
+            "boxShadow" : {
+              "y" : "2",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            },
+            "cornerRadius" : "10",
+            "blurColor" : "dark"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
