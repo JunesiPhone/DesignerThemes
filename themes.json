@@ -96,6 +96,10 @@
             "img": "CH.40.jpg",
             "downloads": "[CH.40.json, CH.40.jpg, latolight.otf, adamasreg.otf, lockicon.png, swhite/weathericons]"
         },
+        "JN01":{
+            "img": "JN01.jpg",
+            "downloads": "[JN01.json, JN01.jpg, SIMPLIFICA.otf]"
+        },
     }
 }
 
