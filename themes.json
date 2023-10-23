@@ -100,6 +100,10 @@
             "img": "JN01.jpg",
             "downloads": "[JN01.json, JN01.jpg, SIMPLIFICA.otf]"
         },
+        "JN02":{
+            "img": "JN02.jpg",
+            "downloads": "[JN02.json, JN02.jpg]"
+        },
     }
 }
 

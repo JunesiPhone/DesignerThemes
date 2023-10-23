@@ -1,0 +1,114 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Fonts: https:\/\/iosfontlist.com\/#availability=10.0&preinstalled",
+    "type" : "UIView",
+    "children" : {
+      "parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~10",
+          "x" : "10",
+          "width" : "260",
+          "height" : "160"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "battery_bar" : {
+            "radius" : "2",
+            "backColor" : "rgba(255,255,255,1.0)",
+            "lowColor" : "rgba(255,0,0,1.0)",
+            "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Creates a battery icon that moves with battery percent",
+            "data" : "[batterypercent]",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "30",
+              "height" : "15"
+            },
+            "type" : "BatteryIcon",
+            "midColor" : "rgba(255,153,64,1.0)",
+            "innerColor" : "rgba(0,255,0,1.0)"
+          },
+          "day" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Data starting with DF is date formatter. I is where info is inserted you can prefix and suffix before and after the I",
+            "frame" : {
+              "y" : "20",
+              "x" : "0",
+              "width" : "300",
+              "height" : "45"
+            },
+            "fontName" : "PingFangTC-Thin",
+            "fontInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) FH = From Height",
+            "type" : "UILabel",
+            "textStyle" : "uppercase",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "time" : {
+            "fontSize" : "FH",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "numberOfLines" : "1",
+            "data" : "[paddedtime]",
+            "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Data starting with DF is date formatter. I is where info is inserted you can prefix and suffix before and after the I",
+            "frame" : {
+              "y" : "100",
+              "x" : "0",
+              "width" : "300",
+              "height" : "45"
+            },
+            "fontName" : "PingFangTC-Thin",
+            "fontInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) FH = From Height",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)"
+          },
+          "date" : {
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "60",
+              "x" : "0",
+              "width" : "300",
+              "height" : "45"
+            },
+            "fontInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) FH = From Height",
+            "dataInfo" : "(INFO ONLY THIS LINE CAN BE DELETED) Data starting with DF is date formatter. I is where info is inserted you can prefix and suffix before and after the I",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [date]",
+            "fontSize" : "FH",
+            "fontName" : "PingFangTC-Thin",
+            "colorAfterSpace" : "rgba(255,255,255,0.7)"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(255, 255, 255, 0.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
