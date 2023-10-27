@@ -108,6 +108,10 @@
             "img": "JN03.jpg",
             "downloads": "[JN03.json, JN03.jpg, back.otf, bikobold.otf, clock_bg.png, perfo.otf]"
         },
+        "JN04":{
+            "img": "JN04.jpg",
+            "downloads": "[JN04.json, JN04.jpg, bebasbold.otf, b2.png, clima/weathericons]"
+        },
     }
 }
 
