@@ -104,6 +104,10 @@
             "img": "JN02.jpg",
             "downloads": "[JN02.json, JN02.jpg]"
         },
+        "JN03":{
+            "img": "JN03.jpg",
+            "downloads": "[JN03.json, JN03.jpg, back.otf, bikobold.otf, clock_bg.png, perfo.otf]"
+        },
     }
 }
 
