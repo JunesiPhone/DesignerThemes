@@ -112,6 +112,10 @@
             "img": "JN04.jpg",
             "downloads": "[JN04.json, JN04.jpg, bebasbold.otf, b2.png, clima/weathericons]"
         },
+        "JN05":{
+            "img": "JN05.jpg",
+            "downloads": "[JN05.json, JN05.jpg]"
+        },
     }
 }
 
