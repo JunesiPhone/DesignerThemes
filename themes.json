@@ -116,6 +116,10 @@
             "img": "JN05.jpg",
             "downloads": "[JN05.json, JN05.jpg]"
         },
+        "JN06":{
+            "img": "JN06.jpg",
+            "downloads": "[JN06.json, JN06.jpg, Bebas.otf, bebasbold.otf]"
+        },
     }
 }
 
