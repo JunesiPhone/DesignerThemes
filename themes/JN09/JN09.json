@@ -1,0 +1,218 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "position" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "center",
+          "x" : "FR~10",
+          "width" : "250",
+          "height" : "420"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "rotated" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "-90",
+            "actions" : "none",
+            "frame" : {
+              "y" : "170",
+              "x" : "0",
+              "width" : "420",
+              "height" : "80"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "timeholder" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "85",
+                  "height" : "40"
+                },
+                "backgroundColor" : "rgba(172, 55, 49, 1.00)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "children" : {
+                  "time" : {
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "textStyle" : "none",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "frame" : {
+                      "y" : "0",
+                      "x" : "center",
+                      "width" : "85",
+                      "height" : "40"
+                    },
+                    "kerning" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255,255,255,1.0)",
+                    "type" : "UILabel",
+                    "numberOfLines" : "1",
+                    "data" : "[paddedhour]:[minute]",
+                    "borderWidth" : "0",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "fontSize" : "20",
+                    "fontName" : "aileronheavy.otf",
+                    "textShadow" : {
+                      "y" : "3",
+                      "radius" : "3",
+                      "x" : "0",
+                      "color" : "rgba(0,0,0,0)"
+                    },
+                    "fontNameAttr" : "none"
+                  }
+                },
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "cornerRadius" : "0",
+                "blurColor" : "dark"
+              },
+              "line" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "none",
+                "frame" : {
+                  "y" : "52",
+                  "x" : "0",
+                  "width" : "85",
+                  "height" : "2"
+                },
+                "backgroundColor" : "rgba(255, 255, 255, 1.00)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "cornerRadius" : "0",
+                "blurColor" : "dark"
+              },
+              "day" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "uppercase",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "34",
+                  "x" : "101",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(172, 55, 49, 1.00)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[day]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "30",
+                "fontName" : "aileronheavy.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none"
+              },
+              "date" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "uppercase",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "101",
+                  "width" : "270",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[dateordinal] [month]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "30",
+                "fontName" : "aileronheavy.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
