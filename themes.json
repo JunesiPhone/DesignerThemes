@@ -132,6 +132,10 @@
             "img": "JN09.jpg",
             "downloads": "[JN09.json, JN09.jpg, aileronheavy.otf]"
         },
+        "JN10":{
+            "img": "JN10.jpg",
+            "downloads": "[JN10.json, JN10.jpg, samsungexlight.otf]"
+        },
     }
 }
 
