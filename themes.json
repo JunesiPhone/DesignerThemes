@@ -136,6 +136,10 @@
             "img": "JN10.jpg",
             "downloads": "[JN10.json, JN10.jpg, samsungexlight.otf]"
         },
+        "JN11":{
+            "img": "JN11.jpg",
+            "downloads": "[JN11.json, JN11.jpg, samsungexlight.otf, samsunglight.otf, clima/weathericons]"
+        },
     }
 }
 
