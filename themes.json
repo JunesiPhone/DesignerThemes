@@ -144,6 +144,10 @@
             "img": "JN12.jpg",
             "downloads": "[JN12.json, JN12.jpg, din.otf, latobold.otf, latolight.otf]"
         },
+        "JN13":{
+            "img": "JN13.jpg",
+            "downloads": "[JN13.json, JN13.jpg, din.otf]"
+        },
     }
 }
 
