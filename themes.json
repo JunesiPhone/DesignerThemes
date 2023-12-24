@@ -152,6 +152,10 @@
             "img": "JN14.jpg",
             "downloads": "[JN14.json, JN14.jpg]"
         },
+        "HS1":{
+            "img": "HS1.jpg",
+            "downloads": "[HS1.json, HS1.jpg, music.png, next.png, pause.png, play.png, prev.png, clima/weathericons]"
+        },
     }
 }
 
