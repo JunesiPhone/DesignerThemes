@@ -1,0 +1,616 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "main" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~100",
+          "x" : "center",
+          "width" : "300",
+          "height" : "306"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "circgroup2" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "188",
+              "x" : "0",
+              "width" : "190",
+              "height" : "44"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "circle_1" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "none",
+                "frame" : {
+                  "y" : "2",
+                  "x" : "0",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "backgroundColor" : "rgba(255, 255, 255, 0.20)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "children" : {
+                  "circinfo_1" : {
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "textStyle" : "none",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "frame" : {
+                      "y" : "2",
+                      "x" : "0",
+                      "width" : "40",
+                      "height" : "40"
+                    },
+                    "kerning" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255, 255, 255, 1.00)",
+                    "type" : "UILabel",
+                    "fontColorAttr" : "none",
+                    "numberOfLines" : "1",
+                    "data" : "[batterypercent]%",
+                    "borderWidth" : "0",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "fontSize" : "15",
+                    "fontName" : "bebasbold.otf",
+                    "textShadow" : {
+                      "y" : "3",
+                      "color" : "rgba(0,0,0,0)",
+                      "x" : "0",
+                      "radius" : "3"
+                    },
+                    "fontNameAttr" : "none"
+                  }
+                },
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "cornerRadius" : "20",
+                "blurColor" : "dark"
+              },
+              "circlabel1_1" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "7",
+                  "x" : "55",
+                  "width" : "150",
+                  "height" : "20"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "[ischarging]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "15",
+                "fontName" : "bebasbold.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none"
+              },
+              "circlabel2_1" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "21",
+                  "x" : "55",
+                  "width" : "150",
+                  "height" : "20"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 0.50)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "battery",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "13",
+                "fontName" : "Bebas.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "circgroup" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "133",
+              "x" : "0",
+              "width" : "190",
+              "height" : "44"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "circlabel2" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "21",
+                  "x" : "55",
+                  "width" : "150",
+                  "height" : "20"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 0.50)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "condition",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "13",
+                "fontName" : "Bebas.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none"
+              },
+              "circle" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "none",
+                "frame" : {
+                  "y" : "2",
+                  "x" : "0",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "backgroundColor" : "rgba(255, 255, 255, 1.00)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "children" : {
+                  "circinfo" : {
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "textStyle" : "none",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "frame" : {
+                      "y" : "2",
+                      "x" : "0",
+                      "width" : "40",
+                      "height" : "40"
+                    },
+                    "kerning" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(0, 0, 0, 1.00)",
+                    "type" : "UILabel",
+                    "fontColorAttr" : "none",
+                    "numberOfLines" : "1",
+                    "data" : "[temperature][degreeSymbol]",
+                    "borderWidth" : "0",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "fontSize" : "15",
+                    "fontName" : "bebasbold.otf",
+                    "textShadow" : {
+                      "y" : "3",
+                      "radius" : "3",
+                      "x" : "0",
+                      "color" : "rgba(0,0,0,0)"
+                    },
+                    "fontNameAttr" : "none"
+                  }
+                },
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "cornerRadius" : "20",
+                "blurColor" : "dark"
+              },
+              "circlabel1" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "7",
+                  "x" : "55",
+                  "width" : "150",
+                  "height" : "20"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "[condition]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "15",
+                "fontName" : "bebasbold.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "36",
+              "x" : "0",
+              "width" : "150",
+              "height" : "60"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255, 255, 255, 0.25)",
+            "type" : "UILabel",
+            "fontColorAttr" : "none",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "30",
+            "fontName" : "bebasbold.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none"
+          },
+          "date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "71",
+              "x" : "0",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "fontColorAttr" : "none",
+            "numberOfLines" : "1",
+            "data" : "[paddeddate] [month]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "20",
+            "fontName" : "Bebas.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none"
+          },
+          "line" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "115",
+              "x" : "0",
+              "width" : "200",
+              "height" : "2"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 1.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "circgroup3" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "243",
+              "x" : "0",
+              "width" : "190",
+              "height" : "44"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "circlabel2_1_1" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "21",
+                  "x" : "55",
+                  "width" : "150",
+                  "height" : "20"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 0.50)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "wind",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "13",
+                "fontName" : "Bebas.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none"
+              },
+              "circle_1_1" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "none",
+                "frame" : {
+                  "y" : "2",
+                  "x" : "0",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "backgroundColor" : "rgba(255, 255, 255, 0.20)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "children" : {
+                  "circinfo_1_1" : {
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "textStyle" : "none",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "frame" : {
+                      "y" : "2",
+                      "x" : "0",
+                      "width" : "40",
+                      "height" : "40"
+                    },
+                    "kerning" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255, 255, 255, 1.00)",
+                    "type" : "UILabel",
+                    "fontColorAttr" : "none",
+                    "numberOfLines" : "1",
+                    "data" : "[windspeed]",
+                    "borderWidth" : "0",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "fontSize" : "15",
+                    "fontName" : "bebasbold.otf",
+                    "textShadow" : {
+                      "y" : "3",
+                      "radius" : "3",
+                      "x" : "0",
+                      "color" : "rgba(0,0,0,0)"
+                    },
+                    "fontNameAttr" : "none"
+                  }
+                },
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "cornerRadius" : "20",
+                "blurColor" : "dark"
+              },
+              "circlabel1_1_1" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "7",
+                  "x" : "55",
+                  "width" : "150",
+                  "height" : "20"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "[windunit]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "15",
+                "fontName" : "bebasbold.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "clock" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "2",
+              "x" : "0",
+              "width" : "150",
+              "height" : "60"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "fontColorAttr" : "none",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "48",
+            "fontName" : "bebasbold.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
