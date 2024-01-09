@@ -160,6 +160,10 @@
             "img": "JN15.jpg",
             "downloads": "[JN15.json, JN15.jpg, Bebas.otf, bebasbold.otf"
         },
+        "JN16":{
+            "img": "JN16.jpg",
+            "downloads": "[JN16.json, JN16.jpg, neonimg.png"
+        },
     }
 }
 
