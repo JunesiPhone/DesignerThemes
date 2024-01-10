@@ -168,6 +168,10 @@
             "img": "JN18.jpg",
             "downloads": "[JN18.json, JN18.jpg, bebasbold.otf, bebaslight.otf"
         },
+        "JN20":{
+            "img": "JN20.jpg",
+            "downloads": "[JN20.json, JN20.jpg, Monocode-Regular.ttf"
+        },
     }
 }
 
