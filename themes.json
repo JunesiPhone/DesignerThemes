@@ -180,10 +180,6 @@
             "img": "JN21.jpg",
             "downloads": "[JN21.json, JN21.jpg, Bernier.otf, Future.ttf"
         },
-        "test111":{
-            "img": "test111.jpg",
-            "downloads": "[test111.json, test111.jpg, rounded/signalimages, rounded/wifiimages"
-        },
     }
 }
 
