@@ -1,0 +1,75 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "s" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "100",
+          "x" : "100",
+          "width" : "100",
+          "height" : "100"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "hello.png",
+        "type" : "UIImageView",
+        "actions" : "none",
+        "imageFolder" : "\/var\/mobile\/Library\/DesignerAssets\/wifiImages\/rounded"
+      },
+      "sig" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "300",
+          "x" : "100",
+          "width" : "100",
+          "height" : "100"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "hello.png",
+        "type" : "UIImageView",
+        "actions" : "none",
+        "imageFolder" : "\/var\/mobile\/Library\/DesignerAssets\/signalImages\/rounded"
+      },
+      "time_label" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "213",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : 4,
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSize" : "30",
+        "fontName" : "PingFangTC-Ultralight",
+        "textShadow" : {
+          "y" : 3,
+          "radius" : 3,
+          "x" : 0,
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : 0
+      }
+    }
+  }
+}
