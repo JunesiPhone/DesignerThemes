@@ -1,0 +1,289 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "分" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "280",
+          "x" : "center",
+          "width" : "math(screen_width\/2-30)",
+          "height" : "135"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : 4,
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,0.6)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[minute]",
+        "borderWidth" : "",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "110",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "天气透明" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "frame" : {
+          "y" : "96",
+          "x" : "25",
+          "width" : "14",
+          "height" : "14"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "天气" : {
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "14",
+              "height" : "14"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Nothing_phone"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "天气",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0.8",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "weaa" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "71",
+          "x" : "79",
+          "width" : "150",
+          "height" : "65"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[condition]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "22",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "time_label" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "197",
+          "x" : "center",
+          "width" : "math(screen_width\/2-30)",
+          "height" : "135"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : 4,
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,0.6)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "110",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "46",
+          "x" : "26",
+          "width" : "150",
+          "height" : "65"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[shortday]. [dateordinal] [shortmonth]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "22",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "dot2" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "236",
+          "x" : "math(screen_width\/2)",
+          "width" : "math(screen_width\/2-20)",
+          "height" : "135"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "0",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,0.6)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "•",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "110",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "weather" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "uppercase",
+        "textAlignment" : "NSTextAlignmentRight",
+        "frame" : {
+          "y" : "71",
+          "x" : "32",
+          "width" : "33",
+          "height" : "65"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[temperature]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "22",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "we-tm" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "98",
+          "x" : "66",
+          "width" : "3",
+          "height" : "3"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "te-pl.png",
+        "type" : "UIImageView",
+        "actions" : "none",
+        "imageFolder" : "none"
+      },
+      "dot" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentRight",
+        "frame" : {
+          "y" : "236",
+          "x" : "0",
+          "width" : "math(screen_width\/2-16)",
+          "height" : "135"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "0",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,0.6)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "•",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "110",
+        "fontName" : "lcd.otf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      }
+    }
+  }
+}
