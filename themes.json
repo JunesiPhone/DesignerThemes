@@ -180,6 +180,10 @@
             "img": "JN21.jpg",
             "downloads": "[JN21.json, JN21.jpg, Bernier.otf, Future.ttf"
         },
+        "OutlookMusic":{
+            "img": "OutlookMusic.jpg",
+            "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
+        },
     }
 }
 
