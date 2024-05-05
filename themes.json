@@ -180,6 +180,18 @@
             "img": "JN21.jpg",
             "downloads": "[JN21.json, JN21.jpg, Bernier.otf, Future.ttf"
         },
+        "JN22":{
+            "img": "JN22.jpg",
+            "downloads": "[JN22.json, JN22.jpg, Bebas.ttf"
+        },
+        "JN23":{
+            "img": "JN23.jpg",
+            "downloads": "[JN23.json, JN23.jpg, Bebas.ttf, clima/weathericons"
+        },
+        "JN24":{
+            "img": "JN24.jpg",
+            "downloads": "[JN24.json, JN24.jpg, robotobold.otf, robotoregular.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
