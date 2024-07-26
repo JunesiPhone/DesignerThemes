@@ -196,6 +196,10 @@
             "img": "JN25.jpg",
             "downloads": "[JN25.json, JN25.jpg, everafte.otf"
         },
+        "JN26":{
+            "img": "JN26.jpg",
+            "downloads": "[JN26.json, JN26.jpg, lcd.otf, clock2bg, clock2hr, clock2min, clock2sec"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"

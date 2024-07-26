@@ -1,0 +1,125 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "d" : {
+        "alpha" : "1",
+        "frame" : {
+          "y" : "200",
+          "x" : "center",
+          "width" : "200",
+          "height" : "200"
+        },
+        "secondImage" : "clock2sec.png",
+        "hourImage" : "clock2hr.png",
+        "minuteImage" : "clock2min.png",
+        "type" : "AnalogClock",
+        "backgroundImage" : "clock2bg.png",
+        "scale" : "1.5"
+      },
+      "min" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "295",
+          "x" : "center",
+          "width" : "150",
+          "height" : "60"
+        },
+        "fontName" : "lcd.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "90",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[minute]",
+        "numberOfLines" : "1"
+      },
+      "batt" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "lcd.otf",
+        "frame" : {
+          "y" : "355",
+          "x" : "center",
+          "width" : "150",
+          "height" : "20"
+        },
+        "fontName" : "lcd.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "%",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "20",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "26",
+        "textStyle" : "uppercase",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[batterypercent]",
+        "numberOfLines" : "1"
+      },
+      "hour" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "245",
+          "x" : "center",
+          "width" : "150",
+          "height" : "60"
+        },
+        "fontName" : "lcd.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "90",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]",
+        "numberOfLines" : "1"
+      }
+    }
+  }
+}
