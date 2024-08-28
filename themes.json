@@ -204,6 +204,14 @@
             "img": "JN27.jpg",
             "downloads": "[JN27.json, JN27.jpg"
         },
+        "JN28":{
+            "img": "JN28.jpg",
+            "downloads": "[JN28.json, JN28.jpg, 2BR_SC.ttf, AAMulticolore.otf, Net-Carthart.ttf"
+        },
+        "JN29":{
+            "img": "JN28.jpg",
+            "downloads": "[JN28.json, JN28.jpg, GlacialIndifference-Bold.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
