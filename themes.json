@@ -212,6 +212,10 @@
             "img": "JN29.jpg",
             "downloads": "[JN29.json, JN29.jpg, GlacialIndifference-Bold.otf"
         },
+        "JN30":{
+            "img": "JN30.jpg",
+            "downloads": "[JN30.json, JN30.jpg, HirukoProRegular.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
