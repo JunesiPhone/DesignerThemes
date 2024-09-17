@@ -220,6 +220,10 @@
             "img": "JN31.jpg",
             "downloads": "[JN31.json, JN31.jpg, LEMONMILK-Bold.otf, ProductSansBold.ttf"
         },
+        "JN32":{
+            "img": "JN32.jpg",
+            "downloads": "[JN32.json, JN32.jpg, GlacialIndifference-Regular.otf, Poppins-Bold.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
