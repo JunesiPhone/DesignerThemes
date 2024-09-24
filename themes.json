@@ -228,6 +228,10 @@
             "img": "JN33.jpg",
             "downloads": "[JN33.json, JN33.jpg, AAMulticolore.otf, LEMONMILK-Bold.otf"
         },
+        "JN34":{
+            "img": "JN34.jpg",
+            "downloads": "[JN34.json, JN34.jpg, laCompagniedesOmbres.ttf, bebasbold.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
