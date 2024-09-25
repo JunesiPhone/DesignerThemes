@@ -232,6 +232,10 @@
             "img": "JN34.jpg",
             "downloads": "[JN34.json, JN34.jpg, laCompagniedesOmbres.ttf, bebasbold.otf"
         },
+        "JN35":{
+            "img": "JN35.jpg",
+            "downloads": "[JN35.json, JN35.jpg, SF-Pro-Rounded-Black.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
