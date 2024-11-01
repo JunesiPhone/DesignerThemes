@@ -240,6 +240,10 @@
             "img": "JN36.jpg",
             "downloads": "[JN36.json, JN36.jpg, SF-Pro-Rounded-Bold.otf, SF-Pro-Rounded-Regular.otf"
         },
+        "JN38":{
+            "img": "JN38.jpg",
+            "downloads": "[JN38.json, JN38.jpg, PixeloidSans-Bold.otf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"

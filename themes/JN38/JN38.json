@@ -1,0 +1,110 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "date" : {
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 0.15)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "178",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "fontName" : "PixeloidSans-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "15",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "4",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[shortday], [paddeddate] [shortmonth]",
+        "numberOfLines" : "1"
+      },
+      "battery" : {
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 0.15)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "199",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "fontName" : "PixeloidSans-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "4",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Batt: [batterypercent]%",
+        "numberOfLines" : "1"
+      },
+      "time_label" : {
+        "textShadow" : {
+          "y" : "1",
+          "color" : "rgba(0, 0, 0, 0.15)",
+          "x" : "0",
+          "radius" : "2"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "143",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "fontName" : "PixeloidSans-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "45",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "4",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]:[minute]",
+        "numberOfLines" : "1"
+      }
+    }
+  }
+}
