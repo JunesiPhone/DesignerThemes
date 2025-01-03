@@ -244,6 +244,10 @@
             "img": "JN38.jpg",
             "downloads": "[JN38.json, JN38.jpg, PixeloidSans-Bold.otf"
         },
+        "JN39":{
+            "img": "JN39.jpg",
+            "downloads": "[JN39.json, JN39.jpg, bebasbold.otf, din.otf, Signerica.ttf"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
