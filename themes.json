@@ -156,6 +156,10 @@
             "img": "HS1.jpg",
             "downloads": "[HS1.json, HS1.jpg, music.png, next.png, pause.png, play.png, prev.png, clima/weathericons]"
         },
+        "HS2":{
+            "img": "HS2.jpg",
+            "downloads": "[HS2.json, HS2.jpg, next.png, pause.png, play.png, clima/weathericons]"
+        },
         "JN15":{
             "img": "JN15.jpg",
             "downloads": "[JN15.json, JN15.jpg, Bebas.otf, bebasbold.otf"
