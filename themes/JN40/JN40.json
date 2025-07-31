@@ -1,0 +1,66 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "Container" : {
+        "type" : "UIView",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "320",
+          "height" : "300"
+        },
+        "children" : {
+          "BackgroundDay" : {
+            "fontSize" : "320",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "0",
+              "x" : "center",
+              "width" : "320",
+              "height" : "300"
+            },
+            "data" : "[firstletterday]",
+            "fontName" : "LEMONMILK-Bold.otf",
+            "type" : "UILabel",
+            "textColor" : "rgba(255, 255, 255, 0.1)"
+          },
+          "TimeDisplay" : {
+            "fontSize" : "60",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "80",
+              "x" : "center",
+              "width" : "320",
+              "height" : "60"
+            },
+            "data" : "[hour]:[minute]",
+            "fontName" : "LEMONMILK-Bold.otf",
+            "type" : "UILabel",
+            "textColor" : "rgba(255, 255, 255, 1.0)"
+          },
+          "DateDisplay" : {
+            "fontSize" : "20",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "140",
+              "x" : "center",
+              "width" : "320",
+              "height" : "30"
+            },
+            "data" : "[day], [month] [dateordinal]",
+            "fontName" : "AAMulticolore.otf",
+            "type" : "UILabel",
+            "textColor" : "rgba(255, 255, 255, 0.8)"
+          }
+        }
+      }
+    }
+  }
+}
