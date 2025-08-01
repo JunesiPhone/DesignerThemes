@@ -264,6 +264,10 @@
             "img": "HS3.jpg",
             "downloads": "[HS3.json, HS3.jpg, clima/weathericons]"
         },
+        "HS3":{
+            "img": "HS4.jpg",
+            "downloads": "[HS4.json, HS4.jpg, xbadge.png, clima/swhite]"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
