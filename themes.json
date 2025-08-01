@@ -264,9 +264,13 @@
             "img": "HS3.jpg",
             "downloads": "[HS3.json, HS3.jpg, clima/weathericons]"
         },
-        "HS3":{
+        "HS4":{
             "img": "HS4.jpg",
             "downloads": "[HS4.json, HS4.jpg, xbadge.png, clima/swhite]"
+        },
+        "HS5":{
+            "img": "HS5.jpg",
+            "downloads": "[HS5.json, HS5.jpg]"
         },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
