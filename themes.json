@@ -266,7 +266,7 @@
         },
         "HS4":{
             "img": "HS4.jpg",
-            "downloads": "[HS4.json, HS4.jpg, xbadge.png, clima/swhite]"
+            "downloads": "[HS4.json, HS4.jpg, xbadge.png, clima/weathericons]"
         },
         "HS5":{
             "img": "HS5.jpg",
@@ -275,6 +275,10 @@
         "JN41":{
             "img": "JN41.jpg",
             "downloads": "[JN41.json, JN41.jpg, Bebas.ttf]"
+        },
+        "JN42":{
+            "img": "JN42.jpg",
+            "downloads": "[JN42.json, JN42.jpg, clima/weathericons]"
         },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
