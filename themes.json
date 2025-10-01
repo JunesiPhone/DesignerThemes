@@ -280,6 +280,10 @@
             "img": "JN42.jpg",
             "downloads": "[JN42.json, JN42.jpg, clima/weathericons]"
         },
+        "JN43":{
+            "img": "JN43.jpg",
+            "downloads": "[JN43.json, JN43.jpg]"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"
