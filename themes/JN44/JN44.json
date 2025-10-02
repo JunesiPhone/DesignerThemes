@@ -1,0 +1,172 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "minute",
+      "time_label",
+      "UIImageView_1",
+      "UILabel_1",
+      "weather"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "weather" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "180",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "fontName" : "a-BudokanRounded-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "18",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[temperature][degreeSymbol] [condition]",
+        "numberOfLines" : "1"
+      },
+      "UILabel_1" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "fontName" : "a-BudokanRounded-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "18",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[month] [paddeddate], [day]",
+        "numberOfLines" : "1"
+      },
+      "minute" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "math(screen_height\/2)",
+          "x" : "center",
+          "width" : "300",
+          "height" : "240"
+        },
+        "fontName" : "a-BudokanRounded-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "240",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "4",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[minute]",
+        "numberOfLines" : "1"
+      },
+      "time_label" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "math(screen_height\/2-235)",
+          "x" : "center",
+          "width" : "300",
+          "height" : "240"
+        },
+        "fontName" : "a-BudokanRounded-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "240",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "4",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]",
+        "numberOfLines" : "1"
+      },
+      "UIImageView_1" : {
+        "SFWeight" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "SFColor" : "rgba(255,255,255,1)",
+        "frame" : {
+          "y" : "FB~0",
+          "x" : "center",
+          "width" : "540",
+          "height" : "380"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "wave.png",
+        "SFSymbolName" : "none",
+        "cornerRadius" : "0",
+        "imageColor" : "none"
+      }
+    }
+  }
+}
