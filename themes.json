@@ -288,6 +288,10 @@
             "img": "JN44.jpg",
             "downloads": "[JN44.json, JN44.jpg, a-BudokanRounded-Bold.otf, wave.png]"
         },
+        "JN45":{
+            "img": "JN45.jpg",
+            "downloads": "[JN45.json, JN45.jpg, captian.otf]"
+        },
         "OutlookMusic":{
             "img": "OutlookMusic.jpg",
             "downloads": "[OutlookMusic.json, OutlookMusic.jpg, building.otf, canter.otf, codebold.otf, album.png, albumoverlay.png, heart.png, musicnote.png, next.png, note.png, pause.png, play.png, prev.png, clima/weathericons"

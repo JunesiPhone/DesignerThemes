@@ -1,0 +1,263 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "container" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cutWithView" : "none",
+        "frame" : {
+          "y" : "100",
+          "x" : "center",
+          "width" : "math(screen_width*.75)",
+          "height" : "260"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(0, 0, 0, 0.00)",
+        "autoLayout" : "none",
+        "showWhenPlaying" : "NO",
+        "followWidthOffset" : "x,y",
+        "children" : {
+          "UIView_1" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "cutWithView" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "view_width",
+              "height" : "260"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "15",
+            "backgroundColor" : "rgba(0, 0, 0, 0.00)",
+            "autoLayout" : "none",
+            "showWhenPlaying" : "NO",
+            "followWidthOffset" : "x,y",
+            "children" : {
+              "UILabel_1" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "FB~0",
+                  "x" : "FR~0",
+                  "width" : "310",
+                  "height" : "235"
+                },
+                "fontName" : "captian.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentRight",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "200",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[shortday]",
+                "numberOfLines" : "1"
+              },
+              "UIView_2" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "cutWithView" : "none",
+                "frame" : {
+                  "y" : "FB~0",
+                  "x" : "0",
+                  "width" : "view_width",
+                  "height" : "80"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 1.00)",
+                "autoLayout" : "none",
+                "showWhenPlaying" : "NO",
+                "followWidthOffset" : "x,y",
+                "blurAlpha" : "0",
+                "cornerRadius" : "5",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "followWidthItem" : "none",
+                "borderColor" : "rgba(255,255,255,0)",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "animation" : "none",
+                "blurColor" : "dark"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "UIView_2,UILabel_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "followWidthItem" : "none",
+            "borderColor" : "rgba(255, 255, 255, 1.00)",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "animation" : "none",
+            "blurColor" : "dark"
+          },
+          "info" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "15",
+              "width" : "120",
+              "height" : "25"
+            },
+            "fontName" : "captian.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 0, 0, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(15, 2, 169, 0.00)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "20",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[dateordinal] of [month]",
+            "numberOfLines" : "1"
+          },
+          "time" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "FB~20",
+              "x" : "15",
+              "width" : "115",
+              "height" : "50"
+            },
+            "fontName" : "captian.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 0, 0, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "50",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[paddedhour].[minute]",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time,info,UIView_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "followWidthItem" : "none",
+        "borderColor" : "rgba(255, 255, 255, 1.00)",
+        "actions" : "none",
+        "userInteraction" : "YES",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "battery" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "FB~50",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "25"
+        },
+        "fontName" : "captian.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(15, 2, 169, 0.00)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "20",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[batterypercent]%",
+        "numberOfLines" : "1"
+      }
+    }
+  }
+}
